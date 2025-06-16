@@ -1,0 +1,41 @@
+.faq-myths {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.faq-myths h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s ease;
+}
+
+.accordion-button:hover {
+  background: #f1f1f1;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  font-size: 0.95rem;
+  color: #333;
+  transition: max-height 0.3s ease;
+}

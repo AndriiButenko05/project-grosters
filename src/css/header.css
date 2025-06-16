@@ -1,3 +1,39 @@
 .header {
   padding: 20px 0;
+  border-bottom: 1px solid #daa520;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-list {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #daa520;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+}
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.burger-icon {
+  display: block;
+  fill: #daa520;
 }

@@ -1,0 +1,77 @@
+.why-bulgaria {
+  padding: 36px 0;
+}
+.splide__slide {
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.pluses-heading {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.pluses-list-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  margin-bottom: 8px;
+}
+.pluses-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+
+  margin-bottom: 8px;
+}
+.splide__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #ffd700;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 10;
+}
+.splide__arrow svg {
+  fill: #ffd700;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.splide__arrow--prev {
+  left: -3rem;
+}
+
+.splide__arrow--next {
+  right: -3rem;
+}
+.splide__pagination {
+  margin-top: 1rem;
+  position: relative;
+  bottom: auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.splide__pagination__page.is-active {
+  opacity: 1;
+  background: #ffd700;
+}
