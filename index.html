@@ -2,49 +2,422 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/project-grosters/assets/logo-company-DzDbpyVF.jpg" />
+    <link rel="icon" type="image/svg+xml" href="./img/logo-company.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Grosters Company</title>
     <script type="module" crossorigin src="/project-grosters/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-DWCXLA1q.css">
+    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-0lZz9kHy.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container header-container">
+    <nav class="navigation-header">
+      <a href="../index.html" class="header-logo">Grosters Company</a>
+      <ul class="header-list">
+        <li>
+          <a href="#section-pluses" class="header-list-item current"
+            >Чому Болгарія?</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li>
+          <a href="#section-root" class="header-list-item"
+            >Як отримати паспорт?</a
+          >
+        </li>
+        <li>
+          <a href="#section-questions" class="header-list-item">Питання</a>
+        </li>
+        <li>
+          <a href="#section-reviews" class="header-list-item">Відгуки</a>
         </li>
       </ul>
     </nav>
+    <div>
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="../img/icons&logo/Vector.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" type="button">
+          <svg class="mobile-menu-icon-close" width="8" height="8">
+            <use href="../img/icons&logo/Vector.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-navigation">
+          <ul class="mobile-menu-navigation-list">
+            <li>
+              <a href="#section-pluses" class="header-list-item current"
+                >Чому Болгарія?</a
+              >
+            </li>
+            <li>
+              <a href="#section-root" class="header-list-item"
+                >Як отримати паспорт?</a
+              >
+            </li>
+            <li>
+              <a href="#section-questions" class="header-list-item">Питання</a>
+            </li>
+            <li>
+              <a href="#section-reviews" class="header-list-item">Відгуки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
 </header>
 
-    <main></main>
+    <main>
+      <section class="hero-section">
+  <div class="container">
+    <h1>Від мрії до паспорта</h1>
+    <p class="hero-text">
+      Ми — команда досвідчених юристів, які допомагають людям легально отримати
+      громадянство Болгарії. Наш фокус — повний юридичний супровід, від
+      безкоштовної консультації до моменту, коли ви тримаєте паспорт у руках
+      Працюємо офіційно Маємо офіси в Україні та Болгарії Кожен кейс —
+      індивідуальний підхід Більше 500 клієнтів уже пройшли цей шлях з нами — і
+      успішно! Якщо ви мріяли жити в Європі, подорожувати світом без віз, дати
+      дітям освіту в ЄС — почніть із першого кроку вже сьогодні. Пишіть нам у
+      Direct або переходьте за посиланням у профілі.
+    </p>
+    <button type="button" class="hero-btn">
+      <a
+        href="https://www.instagram.com/grosters.company/?igsh=MTN1OGNxbG9meWZnNQ%3D%3D"
+        target="_blank"
+        >Instagram</a
+      >
+    </button>
+  </div>
+</section>
+
+      <section class="why-bulgaria" id="section-pluses">
+  <div class="container">
+    <h2 class="pluses-heading">Чому саме Болгарія?</h2>
+    <div id="bulgaria-slider" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <h3 class="pluses-list-heading">Болгарія — ваш ключ до Європи</h3>
+            <p class="pluses-list-text">
+              Болгарія — це не лише гарна природа й Чорне море. Це ще й країна,
+              що відкриває двері до Євросоюзу 🇪🇺 Паспорт Болгарії = 169 країн
+              без віз Можливість легально працювати, вести бізнес і жити в
+              будь-якій країні ЄС Подвійне громадянство дозволене — ви не
+              втрачаєте своє Це — розумна інвестиція у ваше майбутнє.
+            </p>
+          </li>
+          <li class="splide__slide">
+            <h3 class="pluses-list-heading">
+              Чому Болгарія, а не інші країни ЄС?
+            </h3>
+            <p class="pluses-list-text">
+              В Італії чи Іспанії треба жити 10+ років У Німеччині — складні
+              іспити А Болгарія — це: Швидко: до 12 місяців Без обов’язкового
+              проживання Без втрати громадянства Без мовних тестів Ви отримуєте
+              паспорт ЄС, не змінюючи кардинально свій стиль життя Для багатьох
+              наших клієнтів — це найкраща альтернатива міграції
+            </p>
+          </li>
+          <li class="splide__slide">
+            <h3 class="pluses-list-heading">
+              Що дає паспорт Болгарії вашим дітям?
+            </h3>
+            <p class="pluses-list-text">
+              Європейський паспорт — це про можливості для поколінь Вступ до
+              університетів ЄС без високих квот і обмежень Доступ до медичних
+              послуг Соціальні гарантії Подорожі без віз Діти можуть мати доступ
+              до тих самих переваг, що і діти в Німеччині чи Франції Ви
+              створюєте майбутнє для своєї родини — вже зараз
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="root-section" id="section-root">
+  <div class="container">
+    <h2 class="root-heading">Як отримати паспорт по корінню?</h2>
+    <p class="root-text">
+      Це — не міф, а реальність! Ви можете стати громадянином ЄС усього за рік
+      Найшвидший і легальний шлях — походження (коріння) Якщо у вас у роду були
+      болгари — ми допоможемо:
+    </p>
+    <div class="advantages-yacht">
+      <ul class="advantages-list">
+        <li class="advantages-item">
+          <h3 class="advantages-header">01</h3>
+          <p class="advantages-text advantages-text-one">
+            Встановити родинний зв’язок
+          </p>
+        </li>
+        <li class="advantages-item">
+          <h3 class="advantages-header">02</h3>
+          <p class="advantages-text">Знайти документи у болгарських архівах</p>
+        </li>
+        <li class="advantages-item">
+          <h3 class="advantages-header">03</h3>
+          <p class="advantages-text">Підготувати повний пакет документів</p>
+        </li>
+        <li class="advantages-item">
+          <h3 class="advantages-header">04</h3>
+          <p class="advantages-text">Перекласти, легалізувати, подати</p>
+        </li>
+      </ul>
+    </div>
+    <p class="root-text">
+      Процес виглядає складно, але ми зробимо все за вас. Вам залишиться лише
+      дочекатись позитивного рішення — і отримати паспорт. Напишіть нам:
+      безкоштовна перевірка по корінню вже сьогодні!
+    </p>
+  </div>
+</section>
+
+      <section class="questions-section" id="section-questions">
+  <div class="container">
+    <h2>Часті питання та міфи</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-button">Чи потрібна болгарська мова?</button>
+        <div class="accordion-content">
+          Ні — для коріння чи інвесторів не потрібно
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">Чи треба переїжджати?</button>
+        <div class="accordion-content">
+          Ні! Програма не вимагає проживання в Болгарії.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">Це легально?</button>
+        <div class="accordion-content">
+          Так — працюємо лише в межах законодавства Болгарії 🇧🇬
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">
+          Міф: “Це довго, складно, нереально”
+        </button>
+        <div class="accordion-content">
+          Ні, до 12 місяців і з нашою допомогою — це просто
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">
+          Міф: “Треба знати мову й переїжджати”
+        </button>
+        <div class="accordion-content">
+          Ні. Це не обов’язково за програмою по корінню
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">Міф: “Це дорого”</button>
+        <div class="accordion-content">
+          У нас доступні тарифи з розтермінуванням
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews-sect" id="section-reviews">
+  <div class="container">
+    <h2 class="reviews">Our reviews</h2>
+    <ul class="reviews-list">
+      <li class="reviews-list-item">
+        <img
+          srcset="../img/team/img-3.jpg 1x, ../img/team/img@2x-3.jpg 2x"
+          src="../img/team/img-3.jpg"
+          alt="Worker number 1"
+          width="264"
+          height="260"
+          class="reviews-list-img"
+        />
+        <div class="reviews-list-text-container">
+          <h3 class="reviews-list-heading name">
+            Владислав, 27 років, Чернівці
+          </h3>
+          <p class="reviews-list-text job">
+            "Grosters — це не просто сервіс, це команда, яка реально бореться за
+            результат. Я отримав паспорт Болгарії через 11 місяців. І головне —
+            я знав, що все по закону. Рекомендую всім, хто хоче легальність і
+            спокій."
+          </p>
+        </div>
+      </li>
+      <li class="reviews-list-item">
+        <img
+          srcset="../img/team/img-2.jpg 1x, ../img/team/img@2x-2.jpg 2x"
+          src="../img/team/img-2.jpg"
+          alt="Worker number 2"
+          width="264"
+          height="260"
+          class="reviews-list-img"
+        />
+        <div class="reviews-list-text-container">
+          <h3 class="reviews-list-heading name">Олег,27 років, Полтава</h3>
+          <p class="reviews-list-text job">
+            "Я мав поганий досвід з іншою фірмою, тому дуже переживав. Але тут
+            усе інакше: офіційний договір, адвокат, постійний зв’язок. Навіть по
+            відеозв’язку допомагали. Нарешті знайшов компанію, якій можна
+            довіряти."
+          </p>
+        </div>
+      </li>
+      <li class="reviews-list-item">
+        <img
+          srcset="../img/team/img-1.jpg 1x, ../img/team/img@2x-1.jpg 2x"
+          src="../img/team/img-1.jpg"
+          alt="Worker number 3"
+          width="264"
+          height="260"
+          class="reviews-list-img"
+        />
+        <div class="reviews-list-text-container">
+          <h3 class="reviews-list-heading name">Олена, 33 роки, Київ</h3>
+          <p class="reviews-list-text job">
+            "Я навіть не уявляла, що маю болгарське коріння. Команда Grosters
+            допомогла знайти документи моєї бабусі, про яких ми майже нічого не
+            знали. Через 10 місяців я отримала паспорт. Усе — прозоро, офіційно,
+            без зайвих нервів. Дуже вдячна!"
+          </p>
+        </div>
+      </li>
+      <li class="reviews-list-item">
+        <img
+          srcset="../img/team/img.jpg 1x, ../img/team/img@2x.jpg 2x"
+          src="../img/team/img.jpg"
+          alt="Worker number 4"
+          width="264"
+          height="260"
+          class="reviews-list-img"
+        />
+        <div class="reviews-list-text-container">
+          <h3 class="reviews-list-heading name">Артем, 25 років, Київ</h3>
+          <p class="reviews-list-text job">
+            "Я звернувся до Grosters, бо хотів дати свому сину європейську
+            освіту. Нам усе пояснили, перевірили родовід, оформили документи.
+            Дуже спокійно і професійно. Уже готуємось до подачі!"
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="diffirence-section">
+  <div class="container">
+    <h2>Чим ми відрізняємося від інших компаній?</h2>
+    <p>Ми — юридична фірма, а не просто "фірма з оформлення".</p>
+    <ul>
+      <li>
+        <h3>Акредитовані юристи</h3>
+        <p>Наші юристи мають офіційну акредитацію та багаторічний досвід</p>
+      </li>
+      <li>
+        <h3>Офіційне подання</h3>
+        <p>Документи подаються офіційно, через державні установи</p>
+      </li>
+      <li>
+        <h3>Юридичний захист</h3>
+        <p>Всі договори юридично захищені, повна прозорість процесу</p>
+      </li>
+    </ul>
+    <h3>
+      На жаль, ринок повний "сірих" пропозицій. Фейкові документи Прискорення
+      “за гроші” Шахрайство Ми ж працюємо винятково в правовому полі Ви
+      підписуєте юридичний договір Ви отримуєте всі документи від державних
+      установ Болгарії Ви маєте підтвердження кожного кроку Довіра починається з
+      чесності. І ми цінуємо кожного, хто обирає її.
+    </h3>
+  </div>
+</section>
+
+      <section>
+  <div class="container">
+    <h2>Що робити вже сьогодні?</h2>
+    <p>
+      Якщо ви дочитали досі — ви вже зробили перший крок! Що далі? Напишіть у
+      Direct — ми перевіримо, чи підходить вам програма Отримайте безкоштовну
+      консультацію Оберіть оптимальний шлях Підпишіть договір — і ми беремо
+      справу під свій контроль Ваш паспорт = ваша свобода Дійте сьогодні — не
+      відкладайте на “потім”
+    </p>
+    <a
+      href="https://www.instagram.com/grosters.company/?igsh=MTN1OGNxbG9meWZnNQ%3D%3D"
+      target="_blank"
+    >
+      Instagram</a
+    >
+  </div>
+</section>
+
+    </main>
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <div class="footer-div">
+      <div class="footer-h">
+        <a href="/index.html" class="footer-logo">Grosters Company</a>
+        <nav class="footer-nav">
+          <ul class="footer-menu">
+            <li>
+              <a href="#section-pluses" class="header-list-item current"
+                >Чому Болгарія?</a
+              >
+            </li>
+            <li>
+              <a href="#section-root" class="header-list-item"
+                >Як отримати паспорт?</a
+              >
+            </li>
+            <li>
+              <a href="#section-questions" class="header-list-item">Питання</a>
+            </li>
+            <li>
+              <a href="#section-reviews" class="header-list-item">Відгуки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <button type="button">
+          <a
+            href="https://www.instagram.com/grosters.company/?igsh=MTN1OGNxbG9meWZnNQ%3D%3D"
+            target="_blank"
+            >Наш Instagram</a
+          >
+        </button>
+      </div>
+      <div class="footer-text">
+        <p class="footer-slogan">
+          Хочеш паспорт ЄС без зайвих клопотів? Допомагаємо отримати
+          громадянство Болгарії: Без переїзду Без знання мови Без стресу – усе
+          під ключ!
+        </p>
+      </div>
+      <div class="privacy">
+        <p class="privacy-text">2025. Grosters Company</p>
+        <p class="privacy-text">Privacy Police</p>
+      </div>
+    </div>
   </div>
 </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
   </body>
 </html>
