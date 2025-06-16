@@ -32,10 +32,11 @@
   margin-bottom: 8px;
 }
 .splide__arrow {
+  display: none;
   top: 50%;
   transform: translateY(-50%);
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border: 1px solid #ffd700;
   background-color: transparent;
   border-radius: 50%;
@@ -47,11 +48,11 @@
   height: 1.5rem;
 }
 .splide__arrow--prev {
-  left: -3rem;
+  left: -1rem;
 }
 
 .splide__arrow--next {
-  right: -3rem;
+  right: -2rem;
 }
 .splide__pagination {
   margin-top: 1rem;

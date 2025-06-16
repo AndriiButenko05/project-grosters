@@ -1,3 +1,6 @@
+.questions-section {
+  padding: 36px 0;
+}
 .faq-myths {
   max-width: 800px;
   margin: 60px auto;
@@ -9,12 +12,8 @@
   margin-bottom: 30px;
   font-size: 2rem;
 }
-
-.accordion-item {
-  border-bottom: 1px solid #ccc;
-}
-
 .accordion-button {
+  border-bottom: 1px solid #ccc;
   width: 100%;
   text-align: left;
   padding: 15px;
@@ -25,6 +24,7 @@
   cursor: pointer;
   outline: none;
   transition: background 0.2s ease;
+  color: #fff;
 }
 
 .accordion-button:hover {
@@ -36,6 +36,6 @@
   overflow: hidden;
   padding: 0 15px;
   font-size: 0.95rem;
-  color: #333;
+  color: #daa520;
   transition: max-height 0.3s ease;
 }
