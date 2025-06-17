@@ -7,7 +7,7 @@
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #daa520;
+  color: #ffd700;
   margin-bottom: 36px;
 }
 
@@ -30,6 +30,6 @@
   overflow: hidden;
   padding: 0 15px;
   font-size: 0.95rem;
-  color: #daa520;
+  color: #ffd700;
   transition: max-height 0.3s ease;
 }

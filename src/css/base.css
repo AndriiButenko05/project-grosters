@@ -17,13 +17,14 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
   background-color: #070738;
-  color: #daa520;
+  color: #ffd700;
 }
 body.no-scroll {
   overflow: hidden;

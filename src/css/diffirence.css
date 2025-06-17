@@ -7,7 +7,7 @@
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #daa520;
+  color: #ffd700;
   margin-bottom: 36px;
 }
 .diffirence-text {
@@ -28,7 +28,7 @@
   padding: 10px;
   border-radius: 0 0 4px 4px;
   width: 264px;
-  box-shadow: 0 2px 1px 0 #daa520, 0 1px 1px 0 #daa520, 0 1px 6px 0 #daa520;
+  box-shadow: 0 2px 1px 0 #ffd700, 0 1px 1px 0 #ffd700, 0 1px 6px 0 #ffd700;
   border: 1px solid whitesmoke;
   background-color: white;
 }

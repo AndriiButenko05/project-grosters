@@ -2,7 +2,7 @@
   max-width: 320px;
   background: #2e2f42;
   padding: 72px 0px;
-  background-image: url(../img/photo_5368646443998508600_y.jpg);
+  background-image: url(/img/documents.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@ h1 {
   margin-bottom: 36px;
 }
 .hero-text {
+  color: #ffd700;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
@@ -30,7 +31,7 @@ h1 {
   margin-bottom: 55px;
 }
 .hero-btn {
-  background: #daa520;
+  background: #ffd700;
   border: none;
   font-weight: 500;
   line-height: 1.5;
