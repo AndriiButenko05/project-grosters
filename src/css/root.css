@@ -15,7 +15,7 @@
   text-align: center;
   margin-bottom: 16px;
 }
-.advantages-yacht {
+.advantages-root {
   margin: 0 auto;
   border-radius: 24px;
   padding: 20px 20px;
@@ -49,7 +49,7 @@
 
 .advantages-text {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 14px;
   line-height: 1.16667;
   letter-spacing: -0.02em;

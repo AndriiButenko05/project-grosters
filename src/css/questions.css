@@ -1,17 +1,16 @@
 .questions-section {
   padding: 36px 0;
 }
-.faq-myths {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
+.questions-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #daa520;
+  margin-bottom: 36px;
 }
 
-.faq-myths h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
-}
 .accordion-button {
   border-bottom: 1px solid #ccc;
   width: 100%;
@@ -23,12 +22,7 @@
   border: none;
   cursor: pointer;
   outline: none;
-  transition: background 0.2s ease;
   color: #fff;
-}
-
-.accordion-button:hover {
-  background: #f1f1f1;
 }
 
 .accordion-content {
