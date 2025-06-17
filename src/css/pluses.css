@@ -15,11 +15,11 @@
   margin-bottom: 16px;
 }
 .pluses-list-heading {
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  /* text-align: center; */
   margin-bottom: 8px;
 }
 .pluses-list-text {
@@ -27,7 +27,6 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  /* text-align: center; */
 
   margin-bottom: 8px;
 }
