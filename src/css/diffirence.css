@@ -41,6 +41,14 @@
   color: #242424;
   margin-bottom: 8px;
 }
+.diffirence-list-icon-container {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 8px;
+}
+.diffirence-list-icon {
+  fill: #ffd700;
+}
 .diffirence-text-list {
   font-weight: 400;
   font-size: 16px;
