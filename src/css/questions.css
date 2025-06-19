@@ -33,3 +33,54 @@
   color: #ffd700;
   transition: max-height 0.3s ease;
 }
+@media (min-width: 768px) {
+  .questions-section {
+    padding: 60px 40px;
+  }
+
+  .questions-heading {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .accordion-button {
+    font-size: 20px;
+    padding: 20px 24px;
+  }
+
+  .accordion-content {
+    font-size: 18px;
+    padding: 0 24px;
+  }
+
+  .accordion-item.active .accordion-content {
+    padding: 20px 24px;
+  }
+
+  .accordion {
+    gap: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .questions-section {
+    padding: 80px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .questions-heading {
+    font-size: 36px;
+  }
+
+  .accordion-button {
+    font-size: 22px;
+  }
+
+  .accordion-content {
+    font-size: 20px;
+  }
+
+  .accordion {
+    gap: 24px;
+  }
+}

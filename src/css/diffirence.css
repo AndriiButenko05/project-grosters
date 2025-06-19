@@ -11,6 +11,7 @@
   margin-bottom: 36px;
 }
 .diffirence-text {
+  color: #fff;
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -57,4 +58,18 @@
   text-align: center;
   color: #242424;
   margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  .diffirence-text {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .diffirence-list {
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 1200px) {
+  .diffirence-list {
+    gap: 36px;
+  }
 }

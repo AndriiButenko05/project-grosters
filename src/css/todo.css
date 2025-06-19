@@ -11,6 +11,7 @@
   margin-bottom: 36px;
 }
 .todo-text {
+  color: #fff;
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -38,4 +39,12 @@
 .todo-btn:hover {
   background: #fff;
   color: #070738;
+}
+@media (min-width: 768px) {
+  .todo-text {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
 }
