@@ -4,7 +4,7 @@
 .root-text {
   color: #fff;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
@@ -63,7 +63,7 @@
 }
 @media screen and (min-width: 768px) {
   .root-section {
-    padding: 75px 0;
+    padding: 72px 0;
   }
 
   .advantages-root {
@@ -120,12 +120,11 @@
     padding-top: 50px;
     row-gap: 100px;
   }
-
   .advantages-item {
     width: calc((100% - 44px) / 2);
   }
   .advantages-header::after {
-    max-width: 280 px;
+    max-width: 280px;
   }
   .advantages-img {
     max-width: 432px;

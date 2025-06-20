@@ -9,7 +9,6 @@
   margin: 0 auto;
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -57,7 +56,6 @@ h1 {
     max-width: 650px;
     font-size: 70px;
   }
-
   .hero-text {
     font-size: 20px;
     line-height: 1.4;

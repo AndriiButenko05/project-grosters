@@ -3,7 +3,6 @@
   border-top: 1px solid #ffd700;
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 18px;
@@ -65,6 +64,9 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+.footer-btn:not(:last-child) {
+  margin-bottom: 12px;
+}
 .footer-btn:hover {
   background: #fff;
   color: #070738;
@@ -98,14 +100,13 @@
   color: rgba(251, 251, 251, 0.4);
 }
 @media screen and (min-width: 768px) {
-  .footer-container {
-    padding: 0 16px;
+  .footer {
+    padding: 32 0px;
   }
   .footer-nav {
     display: flex;
     justify-content: center;
   }
-
   .footer-h {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -113,49 +114,37 @@
   .footer-logo {
     font-size: 20px;
   }
-
   .footer-nav-item {
     width: 91px;
   }
-
   .footer-nav-link {
     padding: 15px 25px;
   }
-
   .footer-soc-media {
     margin: 0;
   }
   .footer-text {
     max-width: 640px;
   }
-
   .footer-slogan {
     margin: 0 auto;
     font-size: 32px;
     max-width: 603px;
   }
-
   .privacy-text {
     font-size: 14px;
     line-height: 1.18;
   }
 }
-
 @media screen and (min-width: 1280px) {
-  .footer-container {
-    padding: 0 10px;
-  }
-
-  .footer-div {
-    padding: 50px 75px 20px 75px;
-  }
-
   .footer-text {
     margin-top: 96px;
   }
-
   .footer-slogan {
     max-width: 630px;
+  }
+  .footer-menu {
+    gap: 10px;
   }
   .footer-nav-item {
     height: 70px;

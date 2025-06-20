@@ -102,7 +102,6 @@
 }
 .mobile-menu-navigation-list-item {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -120,7 +119,6 @@
   justify-content: center;
 }
 .mobile-menu-address-item {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;

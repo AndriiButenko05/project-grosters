@@ -57,9 +57,11 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #242424;
-  margin-bottom: 8px;
 }
 @media (min-width: 768px) {
+  .diffirence-section {
+    padding: 72px 0;
+  }
   .diffirence-text {
     text-align: center;
     margin-bottom: 32px;

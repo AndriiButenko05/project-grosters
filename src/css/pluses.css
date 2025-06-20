@@ -1,6 +1,9 @@
 .why-bulgaria {
   padding: 36px 0;
 }
+.pluses-list {
+  display: none;
+}
 .splide__slide {
   padding: 20px;
   font-size: 1rem;
@@ -78,67 +81,77 @@
 
 @media (min-width: 768px) {
   .why-bulgaria {
-    padding: 60px 40px;
+    padding: 72px 0px;
   }
-
   .pluses-heading {
     font-size: 32px;
   }
-
   .splide__slide {
     padding: 32px;
   }
-
   .pluses-list-heading {
     font-size: 20px;
   }
-
   .pluses-list-text {
     font-size: 18px;
+    text-align: center;
   }
-
   .splide__arrow--prev {
     left: -24px;
   }
-
   .splide__arrow--next {
     right: -24px;
   }
 }
 @media (min-width: 1200px) {
-  .why-bulgaria {
-    padding: 80px 0;
+  .pluses-text-list {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #242424;
   }
-
+  .pluses-heading-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #242424;
+    margin-bottom: 8px;
+  }
+  .pluses-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 36px;
+  }
+  .pluses-list-item {
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    box-shadow: 0 2px 1px 0 #ffd700, 0 1px 1px 0 #ffd700, 0 1px 6px 0 #ffd700;
+    border: 1px solid whitesmoke;
+    background-color: white;
+  }
+  .pluses-list {
+    gap: 36px;
+  }
+  .why-bulgaria {
+    padding: 72px 0;
+  }
+  .splide {
+    display: none;
+  }
   .pluses-heading {
     font-size: 40px;
     text-align: center;
     color: #ffd700;
+    margin-bottom: 32px;
   }
-  .splide__slide {
-    /* max-width: 900px; */
-    margin: 0 auto;
-    padding: 40px 48px;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-  }
-  .pluses-list-heading {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: #ffd700;
-  }
-  .pluses-list-text {
-    font-size: 20px;
-
-    line-height: 1.6;
-  }
-  .splide__pagination__page {
-    width: 12px;
-    height: 12px;
-    background-color: #999;
-  }
-  .splide__pagination__page.is-active {
-    background-color: #ffd700;
+  .fa-solid {
+    margin-left: 3px;
   }
 }

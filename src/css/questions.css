@@ -1,6 +1,9 @@
 .questions-section {
   padding: 36px 0;
 }
+.questions-list {
+  display: none;
+}
 .questions-heading {
   font-weight: 700;
   font-size: 36px;
@@ -35,7 +38,7 @@
 }
 @media (min-width: 768px) {
   .questions-section {
-    padding: 60px 40px;
+    padding: 72px 0px;
   }
 
   .questions-heading {
@@ -63,24 +66,46 @@
 }
 @media (min-width: 1200px) {
   .questions-section {
-    padding: 80px 100px;
     max-width: 1000px;
     margin: 0 auto;
   }
-
-  .questions-heading {
-    font-size: 36px;
-  }
-
-  .accordion-button {
-    font-size: 22px;
-  }
-
-  .accordion-content {
-    font-size: 20px;
-  }
-
   .accordion {
-    gap: 24px;
+    display: none;
+  }
+  .questions-list {
+    display: block;
+  }
+  .questions-list-item::before {
+    content: '';
+    display: block;
+    margin: 18px 0;
+    border-radius: 18px;
+    height: 2px;
+    background: white;
+  }
+  .questions-list-item::after {
+    content: '';
+    display: block;
+    margin: 18px 0;
+    border-radius: 18px;
+    height: 2px;
+    background: white;
+  }
+  .questions-span {
+    margin-right: 3px;
+  }
+  .questions-list-heading {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .questions-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
   }
 }
