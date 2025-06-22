@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll(".advantages-item");
     const section = document.querySelector(".root-section");
   
+
+    // ANIMATION
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -86,4 +88,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
   
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  
+// BUTTON
+let mybutton = document.getElementById("myBtn");
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+mybutton.addEventListener("click", topFunction)
