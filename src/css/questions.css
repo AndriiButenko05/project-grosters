@@ -10,7 +10,7 @@
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffd700;
+  color: #d4af37;
   margin-bottom: 36px;
 }
 
@@ -25,7 +25,7 @@
   border: none;
   cursor: pointer;
   outline: none;
-  color: #fff;
+  color: #fbfbfb;
 }
 
 .accordion-content {
@@ -33,7 +33,7 @@
   overflow: hidden;
   padding: 0 15px;
   font-size: 0.95rem;
-  color: #ffd700;
+  color: #d4af37;
   transition: max-height 0.3s ease;
 }
 @media (min-width: 768px) {
@@ -81,7 +81,7 @@
     margin: 18px 0;
     border-radius: 18px;
     height: 2px;
-    background: white;
+    background: #fbfbfb;
   }
   .questions-list-item::after {
     content: '';
@@ -89,13 +89,13 @@
     margin: 18px 0;
     border-radius: 18px;
     height: 2px;
-    background: white;
+    background: #fbfbfb;
   }
   .questions-span {
     margin-right: 3px;
   }
   .questions-list-heading {
-    color: #fff;
+    color: #fbfbfb;
     font-weight: 500;
     font-size: 22px;
     line-height: 120%;

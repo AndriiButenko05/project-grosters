@@ -23,8 +23,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-  background-color: #070738;
-  color: #ffd700;
+  background-color: #152244;
+  color: #d4af37;
 }
 body.no-scroll {
   overflow: hidden;
@@ -41,4 +41,14 @@ main:has(.back-link) {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

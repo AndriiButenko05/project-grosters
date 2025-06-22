@@ -1,6 +1,6 @@
 .header {
   padding: 20px 0;
-  border-bottom: 1px solid #ffd700;
+  border-bottom: 1px solid #d4af37;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -19,7 +19,7 @@
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffd700;
+  color: #d4af37;
   padding-top: 16px;
   padding-bottom: 16px;
   display: block;
@@ -35,7 +35,7 @@
 }
 .burger-icon {
   display: block;
-  fill: #ffd700;
+  fill: #d4af37;
 }
 .mobile-menu {
   position: fixed;
@@ -87,7 +87,7 @@
   border: 0;
   line-height: 0;
   background-color: transparent;
-  fill: #ffd700;
+  fill: #d4af37;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -106,7 +106,7 @@
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  color: #ffd700;
+  color: #d4af37;
 }
 .mobile-menu-address {
   margin-bottom: 48px;
@@ -123,7 +123,7 @@
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #ffd700;
+  color: #d4af37;
 }
 .mobile-menu-social {
   display: flex;
@@ -137,14 +137,14 @@
 .mobile-list-svg-link {
   width: 100%;
   height: 100%;
-  background-color: #ffd700;
+  background-color: #d4af37;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
 }
 .mobile-menu-svg {
-  fill: #ffffff;
+  fill: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
@@ -169,6 +169,7 @@
   }
   .header-logo {
     padding: 24px 0;
+    margin-right: 32px;
   }
   .header-list-item {
     display: block;
@@ -177,26 +178,26 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #ffd700;
+    color: #d4af37;
     padding-top: 24px;
     padding-bottom: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header-list-item:hover {
-    color: #ffffff;
+    color: #fbfbfb;
   }
   .header-list-item:focus {
-    color: #ffffff;
+    color: #fbfbfb;
   }
   .header-list-item:active {
-    color: #ffffff;
+    color: #fbfbfb;
     text-decoration: underline;
   }
   .header-address-list-item:hover {
-    color: #ffffff;
+    color: #fbfbfb;
   }
   .header-address-list-item:focus {
-    color: #ffffff;
+    color: #fbfbfb;
   }
   .header-address-list {
     display: flex;
@@ -208,13 +209,16 @@
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
-    color: #ffd700;
+    color: #d4af37;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .header-logo {
     margin-right: 76px;
+  }
+  .header-container {
+    justify-content: center;
   }
   .header-list {
     gap: 25px;
