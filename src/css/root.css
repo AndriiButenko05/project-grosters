@@ -106,7 +106,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .advantages-root {
     display: flex;
     gap: 32px;

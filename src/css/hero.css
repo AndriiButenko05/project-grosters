@@ -65,7 +65,7 @@ h1 {
     margin-bottom: 48px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .hero-section {
     max-width: 1280px;
   }
