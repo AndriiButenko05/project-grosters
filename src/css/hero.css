@@ -7,6 +7,10 @@
   background-position: right;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+.company {
+  display: none;
 }
 h1 {
   font-weight: 700;
@@ -66,6 +70,7 @@ h1 {
     margin-bottom: 48px;
   }
   .company {
+    display: block;
     text-align: center;
     font-size: 30px;
   }

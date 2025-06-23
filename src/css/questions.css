@@ -1,5 +1,11 @@
 .questions-section {
+  background-image: url(/img/office-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
   padding: 36px 0;
+  max-width: 320px;
 }
 .questions-list {
   display: none;
@@ -10,10 +16,14 @@
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-
   margin-bottom: 36px;
 }
-
+.wrong {
+  color: red;
+}
+.right {
+  color: #63e6be;
+}
 .accordion-button {
   border-bottom: 1px solid #ccc;
   width: 100%;
@@ -29,11 +39,14 @@
 }
 
 .accordion-content {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   max-height: 0;
   overflow: hidden;
   padding: 0 15px;
   font-size: 0.95rem;
-  color: #d4af37;
+  color: #fbfbfb;
   transition: max-height 0.3s ease;
 }
 .questions-img {
@@ -42,6 +55,7 @@
 }
 @media (min-width: 768px) {
   .questions-section {
+    max-width: 768px;
     padding: 72px 0px;
   }
 
@@ -70,7 +84,7 @@
 }
 @media (min-width: 1200px) {
   .questions-section {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .accordion {
@@ -87,6 +101,10 @@
     justify-content: center;
   }
   .questions-list-item {
+    padding-left: 6px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     width: 500px;
   }
   .questions-list-item::before {
@@ -95,7 +113,7 @@
     margin: 18px 0;
     border-radius: 18px;
     height: 2px;
-    background: #fbfbfb;
+    background: #152244;
   }
   .questions-list-item::after {
     content: '';
@@ -103,13 +121,13 @@
     margin: 18px 0;
     border-radius: 18px;
     height: 2px;
-    background: #fbfbfb;
+    background: #152244;
   }
   .questions-span {
     margin-right: 3px;
   }
   .questions-list-heading {
-    color: #d4af37;
+    color: #fbfbfb;
     font-weight: 500;
     font-size: 22px;
     line-height: 120%;
@@ -117,15 +135,10 @@
     margin-bottom: 8px;
   }
   .questions-list-text {
+    color: #fbfbfb;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-  }
-  .wrong {
-    color: #fbfbfb;
-  }
-  .right {
-    color: #63e6be;
   }
 }

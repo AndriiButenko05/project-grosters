@@ -37,6 +37,7 @@
   display: none;
 }
 .burger-btn {
+  margin-left: 20px;
   padding: 0;
   border: none;
   background-color: transparent;

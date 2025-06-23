@@ -1,5 +1,11 @@
 .why-bulgaria {
+  background-image: url(/img/lion-crowd-dark.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
   padding: 36px 0;
+  max-width: 320px;
+  margin: 0 auto;
 }
 .pluses-list {
   display: none;
@@ -44,6 +50,9 @@
   border-radius: 50%;
   z-index: 10;
 }
+.splide__slide {
+  background: rgba(0, 0, 0, 0.3);
+}
 .splide__arrow svg {
   fill: #d4af37;
   width: 1.5rem;
@@ -81,6 +90,7 @@
 
 @media (min-width: 768px) {
   .why-bulgaria {
+    max-width: 768px;
     padding: 72px 0px;
   }
   .pluses-heading {
@@ -104,6 +114,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .why-bulgaria {
+    max-width: 1200px;
+  }
   .pluses-text-list {
     font-weight: 400;
     font-size: 17px;
