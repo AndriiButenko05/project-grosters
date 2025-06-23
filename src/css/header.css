@@ -9,9 +9,15 @@
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
+.navigation-header {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,6 +29,9 @@
   padding-top: 16px;
   padding-bottom: 16px;
   display: block;
+}
+.company-name {
+  letter-spacing: 0.02em;
 }
 .header-address {
   display: none;
@@ -164,8 +173,10 @@
     display: block;
   }
   .navigation-header {
-    display: flex;
-    align-items: center;
+    gap: 0px;
+  }
+  .company-name {
+    display: none;
   }
   .header-logo {
     padding: 24px 0;
@@ -206,7 +217,7 @@
     gap: 12px;
   }
   .header-address-list-item {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #d4af37;

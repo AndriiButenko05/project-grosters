@@ -59,7 +59,7 @@
   max-width: 240px;
 }
 .root-img {
-  display: none;
+  margin-top: 32px;
 }
 @media screen and (min-width: 768px) {
   .root-section {
