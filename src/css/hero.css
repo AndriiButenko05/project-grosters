@@ -2,7 +2,11 @@
   max-width: 320px;
   background: #2e2f42;
   padding: 72px 0px;
-  background-image: url(/img/background.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/background.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
