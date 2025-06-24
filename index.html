@@ -14,7 +14,7 @@
     />
     <title>Grosters Company</title>
     <script type="module" crossorigin src="/project-grosters/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-DpkFB58R.css">
+    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-DGhUnNuJ.css">
   </head>
   <body>
     <header class="header">
@@ -23,20 +23,30 @@
       <a href="index.html" class="header-logo"
         ><img src="/project-grosters/assets/grosters-logo-CmS_YY9K.jpg" alt="" width="50"
       /></a>
-
-      <p class="company-name">Grosters Громадянство ЄС</p>
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="bg">BG</button>
+      </div>
 
       <ul class="header-list">
-        <li>
-          <a href="#section-root" class="header-list-item"
-            >Як отримати паспорт?</a
+        <li class="header-list-item">
+          <a href="#section-root" class="header-list-item" data-i18n="whybul"
+            >Чому Болгарія?</a
           >
         </li>
-        <li>
-          <a href="#section-questions" class="header-list-item">Питання</a>
+        <li class="header-list-item">
+          <a
+            href="#section-questions"
+            class="header-list-item"
+            data-i18n="quest"
+            >Питання</a
+          >
         </li>
-        <li>
-          <a href="#section-reviews" class="header-list-item">Відгуки</a>
+        <li class="header-list-item">
+          <a href="#section-reviews" class="header-list-item" data-i18n="review"
+            >Відгуки</a
+          >
         </li>
       </ul>
     </nav>
@@ -71,24 +81,26 @@
       <nav class="mobile-menu-navigation">
         <ul class="mobile-menu-navigation-list">
           <li class="mobile-menu-navigation-list-item">
-            <a href="#section-pluses" class="mobile-menu-navigation-list-link"
+            <a
+              href="#section-pluses"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="whybul"
               >Чому Болгарія?</a
-            >
-          </li>
-          <li class="mobile-menu-navigation-list-item">
-            <a href="#section-root" class="mobile-menu-navigation-list-link"
-              >Як отримати паспорт?</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
             <a
               href="#section-questions"
               class="mobile-menu-navigation-list-link"
+              data-i18n="quest"
               >Питання</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
-            <a href="#section-reviews" class="mobile-menu-navigation-list-link"
+            <a
+              href="#section-reviews"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="review"
               >Відгуки</a
             >
           </li>
@@ -135,9 +147,11 @@
     <main>
       <section class="hero-section">
   <div class="container fade-in">
-    <p class="hero-text company">Grosters Громадянство ЄС</p>
-    <h1>Від мрії до паспорта</h1>
-    <p class="hero-text">
+    <p class="hero-text company" data-i18n="company">
+      Grosters Громадянство ЄС
+    </p>
+    <h1 data-i18n="h1">Від мрії до паспорта</h1>
+    <p class="hero-text" data-i18n="heroText">
       Юридична компанія, яка допомагає легально отримати громадянство Болгарії —
       від консультації до паспорта🛂 <br /><br />🔹 Працюємо офіційно <br />🔹
       Індивідуальний підхід <br />🔹 500+ клієнтів уже з паспортом<br /><br />
@@ -156,13 +170,15 @@
 
       <section class="why-bulgaria" id="section-pluses">
   <div class="container pluses-container fade-in">
-    <h2 class="pluses-heading">Чому саме Болгарія?</h2>
+    <h2 class="pluses-heading" data-i18n="plusHead">Чому саме Болгарія?</h2>
     <div id="bulgaria-slider" class="splide">
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
-            <h3 class="pluses-list-heading">Болгарія — ваш ключ до Європи</h3>
-            <p class="pluses-list-text">
+            <h3 class="pluses-list-heading" data-i18n="plusKey">
+              Болгарія — ваш ключ до Європи
+            </h3>
+            <p class="pluses-list-text" data-i18n="plusTextKey">
               Болгарія — це не лише гарна природа й Чорне море. Це ще й країна,
               що відкриває двері до Євросоюзу. Паспорт Болгарії = 169 країн без
               віз. Можливість легально працювати, вести бізнес і жити в
@@ -171,10 +187,10 @@
             </p>
           </li>
           <li class="splide__slide">
-            <h3 class="pluses-list-heading">
+            <h3 class="pluses-list-heading" data-i18n="plusWhy">
               Чому Болгарія, а не інші країни ЄС?
             </h3>
-            <p class="pluses-list-text">
+            <p class="pluses-list-text" data-i18n="plusTextWhy">
               В Італії чи Іспанії треба жити 10+ років. У Німеччині — складні
               іспити. А Болгарія — це швидко: до 12 місяців, без обов’язкового
               проживання, без втрати громадянства, без мовних тестів. Ви
@@ -183,10 +199,10 @@
             </p>
           </li>
           <li class="splide__slide">
-            <h3 class="pluses-list-heading">
+            <h3 class="pluses-list-heading" data-i18n="plusChild">
               Що дає паспорт Болгарії вашим дітям?
             </h3>
-            <p class="pluses-list-text">
+            <p class="pluses-list-text" data-i18n="plusTextChild">
               Європейський паспорт — це про можливості для поколінь. Вступ до
               університетів ЄС без високих квот і обмежень. Доступ до медичних
               послуг. Соціальні гарантії, подорожі без віз, діти можуть мати
@@ -199,11 +215,11 @@
     </div>
     <ul class="pluses-list">
       <li class="pluses-list-item">
-        <h3 class="pluses-heading-list">
+        <h3 class="pluses-heading-list" data-i18n="plusKey">
           Болгарія — ваш ключ до Європи
           <span><i class="fa-solid fa-key" style="color: #d4af37"></i></span>
         </h3>
-        <p class="pluses-text-list">
+        <p class="pluses-text-list" data-i18n="plusTextKey">
           Болгарія — це не лише гарна природа й Чорне море. Це ще й країна, що
           відкриває двері до Євросоюзу. Паспорт Болгарії = 169 країн без віз.
           Можливість легально працювати, вести бізнес і жити в будь-якій країні
@@ -212,12 +228,12 @@
         </p>
       </li>
       <li class="pluses-list-item">
-        <h3 class="pluses-heading-list">
+        <h3 class="pluses-heading-list" data-i18n="plusWhy">
           Чому Болгарія, а не інші країни ЄС?<span
             ><i class="fa-solid fa-earth-europe" style="color: #d4af37"></i
           ></span>
         </h3>
-        <p class="pluses-text-list">
+        <p class="pluses-text-list" data-i18n="plusTextWhy">
           В Італії чи Іспанії треба жити 10+ років. У Німеччині — складні
           іспити. А Болгарія — це швидко: до 12 місяців, без обов’язкового
           проживання, без втрати громадянства, без мовних тестів. Ви отримуєте
@@ -226,13 +242,13 @@
         </p>
       </li>
       <li class="pluses-list-item">
-        <h3 class="pluses-heading-list">
+        <h3 class="pluses-heading-list" data-i18n="plusChild">
           Що дає паспорт Болгарії вашим дітям?
           <span
             ><i class="fa-solid fa-passport" style="color: #d4af37"></i
           ></span>
         </h3>
-        <p class="pluses-text-list">
+        <p class="pluses-text-list" data-i18n="plusTextChild">
           Болгарія — це не лише гарна природа й Чорне море. Це ще й країна, що
           відкриває двері до Євросоюзу. Паспорт Болгарії = 169 країн без віз.
           Можливість легально працювати, вести бізнес і жити в будь-якій країні
@@ -246,8 +262,10 @@
 
       <section class="root-section" id="section-root">
   <div class="container advantages-container fade-in">
-    <h2 class="root-heading">Як отримати паспорт по корінню?</h2>
-    <p class="root-text">
+    <h2 class="root-heading" data-i18n="rootHead">
+      Як отримати паспорт по корінню?
+    </h2>
+    <p class="root-text" data-i18n="rootHeadText1">
       Це — не міф, а реальність! Ви можете стати громадянином ЄС усього за рік.
       Найшвидший і легальний шлях — походження (коріння). Якщо у вас у роду були
       болгари — ми допоможемо:
@@ -257,21 +275,27 @@
       <ul class="advantages-list">
         <li class="advantages-item">
           <h3 class="advantages-header">01</h3>
-          <p class="advantages-text advantages-text-one">
+          <p class="advantages-text advantages-text-one" data-i18n="rootItem1">
             Встановити родинний зв’язок
           </p>
         </li>
         <li class="advantages-item">
           <h3 class="advantages-header">02</h3>
-          <p class="advantages-text">Знайти документи у болгарських архівах</p>
+          <p class="advantages-text" data-i18n="rootItem2">
+            Знайти документи у болгарських архівах
+          </p>
         </li>
         <li class="advantages-item">
           <h3 class="advantages-header">03</h3>
-          <p class="advantages-text">Підготувати повний пакет документів</p>
+          <p class="advantages-text" data-i18n="rootItem3">
+            Підготувати повний пакет документів
+          </p>
         </li>
         <li class="advantages-item">
           <h3 class="advantages-header">04</h3>
-          <p class="advantages-text">Перекласти, легалізувати, подати</p>
+          <p class="advantages-text" data-i18n="rootItem4">
+            Перекласти, легалізувати, подати
+          </p>
         </li>
       </ul>
       <img
@@ -282,7 +306,7 @@
       />
     </div>
     <div>
-      <p class="root-text">
+      <p class="root-text" data-i18n="rootHeadText2">
         Процес виглядає складно, але ми зробимо все за вас. Вам залишиться лише
         дочекатись позитивного рішення — і отримати паспорт. Напишіть нам -
         безкоштовна перевірка по корінню вже сьогодні!
@@ -293,59 +317,83 @@
 
       <section class="questions-section" id="section-questions">
   <div class="container fade-in">
-    <h2 class="questions-heading">Часті питання та міфи</h2>
+    <h2 class="questions-heading" data-i18n="questHead">
+      Часті питання та міфи
+    </h2>
     <div class="test">
       <div class="accordion">
         <div class="accordion-item">
-          <button class="accordion-button">Чи потрібна болгарська мова?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" data-i18n="questFirst">
+            Чи потрібна болгарська мова?
+          </button>
+          <div class="accordion-content" data-i18n="ansFirst">
             <span class="wrong">Ні </span>— для коріння чи інвесторів не
             потрібно
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-button">Чи треба переїжджати?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" data-i18n="questSecond">
+            Чи треба переїжджати?
+          </button>
+          <div class="accordion-content" data-i18n="ansSecond">
             <span class="wrong">Ні!</span> Програма не вимагає проживання в
             Болгарії.
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-button">Це легально?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" data-i18n="questThird">
+            Це легально?
+          </button>
+          <div class="accordion-content" data-i18n="ansThird">
             <span class="right">Так</span> — працюємо лише в межах законодавства
             Болгарії
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-button">
+          <button class="accordion-button" data-i18n="questFourth">
             Міф: “Це довго, складно, нереально”
           </button>
-          <div class="accordion-content">
+          <div class="accordion-content" data-i18n="ansFourth">
             <span class="wrong">Ні</span>, до 12 місяців і з нашою допомогою —
             це просто
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-button">
+          <button class="accordion-button" data-i18n="questFifth">
             Міф: “Треба знати мову й переїжджати”
           </button>
-          <div class="accordion-content">
+          <div class="accordion-content" data-i18n="ansFifth">
             <span class="wrong">Ні</span>. Це не обов’язково за програмою по
             корінню
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-button">Міф: “Це дорого”</button>
-          <div class="accordion-content">
+          <button class="accordion-button" data-i18n="questSixth">
+            Міф: “Це дорого”
+          </button>
+          <div class="accordion-content" data-i18n="ansSixth">
             У нас доступні тарифи з розтермінуванням
           </div>
         </div>
       </div>
       <ul class="questions-list">
         <li class="questions-list-item">
-          <h3 class="questions-list-heading">Чи потрібна болгарська мова?</h3>
-          <p class="questions-list-text">
+          <h3 class="questions-list-heading" data-i18n="questFirst">
+            Чи потрібна болгарська мова?
+          </h3>
+          <p class="questions-list-text" data-i18n="ansFirst">
+            <span class="questions-span">
+              <i class="fa-solid fa-xmark" style="color: #ff0000"></i>
+            </span>
+            <span class="wrong">Ні</span> — для коріння чи інвесторів не
+            потрібно
+          </p>
+        </li>
+        <li class="questions-list-item">
+          <h3 class="questions-list-heading" data-i18n="questSecond">
+            Чи треба переїжджати?
+          </h3>
+          <p class="questions-list-text" data-i18n="ansSecond">
             <span class="questions-span">
               <i class="fa-solid fa-xmark" style="color: #ff0000"></i>
             </span>
@@ -354,18 +402,10 @@
           </p>
         </li>
         <li class="questions-list-item">
-          <h3 class="questions-list-heading">Чи треба переїжджати?</h3>
-          <p class="questions-list-text">
-            <span class="questions-span">
-              <i class="fa-solid fa-xmark" style="color: #ff0000"></i>
-            </span>
-            <span class="wrong">Ні!</span> Програма не вимагає проживання в
-            Болгарії
-          </p>
-        </li>
-        <li class="questions-list-item">
-          <h3 class="questions-list-heading">Це легально?</h3>
-          <p class="questions-list-text">
+          <h3 class="questions-list-heading" data-i18n="questThird">
+            Це легально?
+          </h3>
+          <p class="questions-list-text" data-i18n="ansThird">
             <span class="questions-span">
               <i class="fa-solid fa-check" style="color: #63e6be"></i>
             </span>
@@ -374,10 +414,10 @@
           </p>
         </li>
         <li class="questions-list-item">
-          <h3 class="questions-list-heading">
+          <h3 class="questions-list-heading" data-i18n="questFourth">
             Міф: “Це довго, складно, нереально”
           </h3>
-          <p class="questions-list-text">
+          <p class="questions-list-text" data-i18n="ansFourth">
             <span class="questions-span">
               <i class="fa-solid fa-xmark" style="color: #ff0000"></i>
             </span>
@@ -386,10 +426,10 @@
           </p>
         </li>
         <li class="questions-list-item">
-          <h3 class="questions-list-heading">
+          <h3 class="questions-list-heading" data-i18n="questFifth">
             Міф: “Треба знати мову й переїжджати”
           </h3>
-          <p class="questions-list-text">
+          <p class="questions-list-text" data-i18n="ansFifth">
             <span class="questions-span"
               ><i class="fa-solid fa-xmark" style="color: #ff0000"></i
             ></span>
@@ -398,8 +438,10 @@
           </p>
         </li>
         <li class="questions-list-item">
-          <h3 class="questions-list-heading">Міф: “Це дорого”</h3>
-          <p class="questions-list-text right">
+          <h3 class="questions-list-heading" data-i18n="questSixth">
+            Міф: “Це дорого”
+          </h3>
+          <p class="questions-list-text right" data-i18n="ansSixth">
             <span class="questions-span">
               <i class="fa-solid fa-money-bill" style="color: #63e6be"></i>
             </span>
