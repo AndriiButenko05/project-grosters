@@ -101,13 +101,24 @@ mybutton.addEventListener("click", topFunction)
 
 // TRANSLATE
 function setLanguage(lang) {
-  document.querySelectorAll('[data-i18n]').forEach(el => {
+  const elements = document.querySelectorAll('[data-i18n]');
+  
+  elements.forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (translations[lang][key]) {
-      el.textContent = translations[lang][key];
+    const newText = translations[lang][key];
+
+    if (newText && el.innerHTML !== newText) {
+      el.style.transition = 'opacity 0.3s ease';
+      el.style.opacity = 0;
+
+      setTimeout(() => {
+        el.innerHTML = newText;
+        el.style.opacity = 1;
+      }, 300);
     }
   });
 }
+
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const lang = btn.dataset.lang;
