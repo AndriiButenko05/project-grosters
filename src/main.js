@@ -1,3 +1,4 @@
+import translations from "./js/translate.js";
 // HEADER
 const BurgerBtn = document.querySelector(".burger-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
@@ -97,3 +98,25 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 mybutton.addEventListener("click", topFunction)
+
+// TRANSLATE
+function setLanguage(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang][key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+}
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const lang = btn.dataset.lang;
+    setLanguage(lang);
+    localStorage.setItem('language', lang);
+  });
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('language') || 'ua';
+  setLanguage(savedLang);
+});

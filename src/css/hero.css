@@ -13,9 +13,7 @@
   margin: 0 auto;
   margin-bottom: 10px;
 }
-.company {
-  display: none;
-}
+
 h1 {
   font-weight: 700;
   font-size: 36px;
@@ -35,6 +33,10 @@ h1 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
   margin: 0 auto;
   margin-bottom: 55px;
+}
+.company {
+  text-align: center;
+  color: #d4af37;
 }
 .hero-btn {
   background: #d4af37;
