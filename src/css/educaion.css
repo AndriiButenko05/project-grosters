@@ -1,0 +1,115 @@
+.education-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/desk-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 36px 0;
+  max-width: 320px;
+  margin-bottom: 10px;
+}
+.education-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 36px;
+}
+.education-text {
+  text-align: center;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.education-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+.education-list-item {
+  padding: 10px;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  box-shadow: 0 2px 1px 0 #d4af37, 0 1px 1px 0 #d4af37, 0 1px 6px 0 #d4af37;
+  border: 1px solid #fbfbfb;
+  background-color: #fbfbfb;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-text-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #242424;
+}
+.education-btn {
+  background: #d4af37;
+  border: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #070738;
+  display: block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.education-btn:hover {
+  background: #fbfbfb;
+  color: #070738;
+}
+.education-btn:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .education-section {
+    padding: 72px 0;
+    max-width: 768px;
+  }
+  .education-text {
+    margin-bottom: 32px;
+  }
+  .education-btn {
+    margin: 0px;
+  }
+  .education-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .education-section {
+    max-width: 1200px;
+  }
+  .education-list {
+    gap: 36px;
+  }
+  .education-list {
+    flex-wrap: nowrap;
+  }
+}

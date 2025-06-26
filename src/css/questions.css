@@ -1,5 +1,5 @@
 .questions-section {
-  background-image: url(/img/office-dark.jpg);
+  background-image: url(/img/bg/office-dark.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@
   .questions-img {
     margin-top: 0;
   }
-  .test {
+  .accordion-container {
     display: flex;
     justify-content: center;
   }

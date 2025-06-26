@@ -6,7 +6,7 @@
       rgba(46, 47, 66, 0.5),
       rgba(46, 47, 66, 0.5)
     ),
-    url(/img/background.jpg);
+    url(/img/bg/background.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
