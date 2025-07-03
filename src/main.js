@@ -1,10 +1,10 @@
 import translations from "./js/translate.js";
 // HEADER
-const BurgerBtn = document.querySelector(".burger-btn");
+const burgerBtn = document.querySelector(".burger-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 const closeBtn = document.querySelector(".mobile-menu-icon-close");
 const navList = document.querySelector(".mobile-menu-navigation-list")
-BurgerBtn.addEventListener("click", () => {
+burgerBtn.addEventListener("click", () => {
   document.body.classList.add('no-scroll');
   mobileMenu.classList.add("is-open")
 })
@@ -16,13 +16,10 @@ navList.addEventListener("click", (event) => {
   if (event.target.classList.contains("mobile-menu-navigation-list-link")) {
       document.body.classList.remove('no-scroll');
     mobileMenu.classList.remove("is-open")
-    console.log(event.target);
-    
-    
   }
-  console.log(event.target);
   return;
 })
+
 // PLUSES
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('#bulgaria-slider', {
@@ -41,11 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
   buttons.forEach(button => {
     button.addEventListener('click', () => {
       const content = button.nextElementSibling;
-
       document.querySelectorAll('.accordion-content').forEach(el => {
         if (el !== content) el.style.maxHeight = null;
       });
-
       content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
     });
   });
@@ -55,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll(".advantages-item");
     const section = document.querySelector(".root-section");
   
-
     // ANIMATION
     const observer = new IntersectionObserver(
       (entries) => {
@@ -77,10 +71,8 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       { threshold: 0.3 } 
     );
-  
     observer.observe(section);
   });
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -88,29 +80,25 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
-  
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   
 // BUTTON
 let mybutton = document.getElementById("myBtn");
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
 }
 mybutton.addEventListener("click", topFunction)
 
 // TRANSLATE
 function setLanguage(lang) {
-  const elements = document.querySelectorAll('[data-i18n]');
-  
+  const elements = document.querySelectorAll('[data-i18n]'); 
   elements.forEach(el => {
     const key = el.getAttribute('data-i18n');
     const newText = translations[lang][key];
-
     if (newText && el.innerHTML !== newText) {
       el.style.transition = 'opacity 0.3s ease';
       el.style.opacity = 0;
-
       setTimeout(() => {
         el.innerHTML = newText;
         el.style.opacity = 1;
