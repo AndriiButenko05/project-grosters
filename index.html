@@ -5,7 +5,7 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="/img/icons&logo/logo-company.jpg"
+      href="/project-grosters/assets/grosters-logo-CmS_YY9K.jpg"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -14,6 +14,7 @@
     />
     <title>Grosters Company</title>
     <script type="module" crossorigin src="/project-grosters/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-grosters/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-DjSAJNGT.css">
   </head>
   <body>
@@ -24,9 +25,15 @@
         ><img src="/project-grosters/assets/grosters-logo-CmS_YY9K.jpg" alt="" width="50"
       /></a>
       <div class="lang-switcher">
-        <button class="lang-btn" data-lang="ua">UA</button>
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="bg">BG</button>
+        <button class="lang-btn">
+          <a href="../bulgaria.html">Болгарія</a>
+        </button>
+        <button class="lang-btn">
+          <a href="../romania.html">Румунія</a>
+        </button>
+        <button class="lang-btn">
+          <a href="../hungary.html">Угорщина</a>
+        </button>
       </div>
 
       <ul class="header-list">
@@ -59,12 +66,12 @@
             >grosters.company@gmail.com</a
           >
         </li>
-        <li>
+        <li class="header-address-list-item">
           <a href="tel:+380778771111" class="header-address-list-item"
             >+380 778 771 111</a
           >
         </li>
-        <li>
+        <li class="header-address-list-item">
           <a href="tel:+380965602077" class="header-address-list-item"
             >+380 965 602 077</a
           >
@@ -746,31 +753,7 @@
   <div class="container fade-in">
     <div class="footer-h">
       <a href="index.html" class="footer-logo">Grosters Company</a>
-      <nav class="footer-nav">
-        <ul class="footer-menu">
-          <li class="footer-nav-item">
-            <a href="#section-pluses" class="footer-nav-link" data-i18n="whybul"
-              >Чому Болгарія?</a
-            >
-          </li>
-          <li class="footer-nav-item">
-            <a
-              href="#section-questions"
-              class="footer-nav-link"
-              data-i18n="quest"
-              >Питання</a
-            >
-          </li>
-          <li class="footer-nav-item">
-            <a
-              href="#section-reviews"
-              class="footer-nav-link"
-              data-i18n="review"
-              >Відгуки</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <nav class="footer-nav"></nav>
     </div>
     <button type="button" class="footer-btn">
       <a
@@ -787,7 +770,7 @@
       >
     </button>
     <div class="footer-text">
-      <p class="footer-slogan" data-i18n="footSlogan">
+      <p class="footer-slogan">
         Хочеш паспорт ЄС без зайвих клопотів? Допомагаємо отримати громадянство
         Болгарії:<br />
         Без переїзду<br />
