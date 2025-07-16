@@ -1,0 +1,77 @@
+.why-us-section {
+  padding: 36px 0;
+}
+.why-us-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 36px;
+}
+.why-us-text {
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.why-us-swiper {
+  margin-bottom: 25px;
+}
+
+.why-us-slide {
+  display: block;
+  border: 1px solid #d4af37;
+  border-radius: 16px;
+  padding: 32px;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.controls-for-swiper {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+.why-us-btn {
+  background-color: transparent;
+  cursor: pointer;
+  background: #d4af37;
+  border: 1px solid rgba(11, 5, 0, 0.15);
+  padding: 17px;
+  width: 48px;
+  height: 48px;
+  fill: white;
+  transition: background 0.25s ease-in-out;
+  transition: fill 0.25s ease-in-out;
+}
+.why-us-btn.disabled {
+  opacity: 0.2;
+  fill: black;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.why-us-btn :active {
+  background: #5a2502;
+  fill: white;
+}
+@media (min-width: 768px) {
+  .why-us-section {
+    padding: 72px 0;
+  }
+  .why-us-text {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .why-us-text {
+    font-size: 20px;
+  }
+}

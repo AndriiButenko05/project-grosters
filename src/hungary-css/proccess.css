@@ -1,0 +1,147 @@
+.proccess-section {
+  padding: 36px 0;
+}
+.proccess-text {
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.proccess-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.advantages-proccess {
+  margin: 0 auto;
+  border-radius: 24px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.advantages-item {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 1s, transform 1s;
+}
+.advantages-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.advantages-header {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.advantages-header::after {
+  content: '';
+  display: block;
+  margin: 18px 0;
+  border-radius: 18px;
+  max-width: 240px;
+  height: 2px;
+  background: fbfbfb;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+}
+
+.advantages-text-one {
+  max-width: 240px;
+}
+.proccess-img {
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .proccess-section {
+    padding: 72px 0;
+  }
+  .proccess-text {
+    text-align: center;
+  }
+
+  .advantages-proccess {
+    padding: 45px 32px;
+    margin-bottom: 0;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 44px;
+    column-gap: 32px;
+    margin-bottom: 50px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .advantages-item:last-child {
+    width: calc((100% - 32px) / 3);
+    margin: 0px auto;
+  }
+
+  .advantages-header {
+    font-size: 32px;
+  }
+
+  .advantages-header::after {
+    max-width: 304px;
+  }
+
+  .advantages-text {
+    font-size: 18px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  .proccess-img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages-proccess {
+    display: flex;
+    gap: 32px;
+  }
+  .proccess-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  .advantages-list {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    row-gap: 100px;
+  }
+  .advantages-item {
+    width: calc((100% - 44px) / 2);
+  }
+  .advantages-item:last-child {
+    width: calc((100% - 44px) / 2);
+    margin: 0px auto;
+  }
+  .advantages-item:last-child .advantages-text {
+    width: 314px;
+  }
+  .advantages-header::after {
+    max-width: 280px;
+  }
+  .advantages-img {
+    max-width: 432px;
+    height: auto;
+  }
+}
