@@ -1,16 +1,16 @@
-.ready-section {
+.passport-romania-section {
   padding: 36px 0;
 }
-.ready-heading {
+.passport-romania-heading {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 31px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #d4af37;
   margin-bottom: 36px;
 }
-.ready-text {
+.passport-romania-text {
   color: #fbfbfb;
   font-weight: 500;
   font-size: 19px;
@@ -18,44 +18,37 @@
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.ready-list {
+.passport-romania-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-bottom: 25px;
 }
-.ready-list-item {
+.passport-romania-list-item {
   display: block;
   border: 1px solid #d4af37;
   border-radius: 16px;
   padding: 32px;
   transition: box-shadow 0.25s ease-in-out;
 }
-.ready-list-item .ready-text {
+.passport-romania-list-item .passport-romania-text {
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .ready-list {
-    flex-direction: row;
+  .passport-romania-list {
     gap: 12px;
     margin-bottom: 25px;
   }
-  .ready-section {
+  .passport-romania-section {
     padding: 72px 0;
   }
-  .ready-text {
+  .passport-romania-text {
     text-align: center;
   }
 }
 @media (min-width: 1200px) {
-  .ready-text {
+  .passport-romania-text {
     font-size: 20px;
-  }
-  .ready-list-item {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .ready-list-item:hover {
-    transform: translateY(-5px);
   }
 }
