@@ -1,7 +1,7 @@
-.reviews-sect {
+.why-us-section {
   padding: 36px 0;
 }
-.reviews {
+.why-us-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -10,28 +10,27 @@
   color: #d4af37;
   margin-bottom: 36px;
 }
-.reviews-text {
+.why-us-text {
   color: #fbfbfb;
   font-weight: 500;
   font-size: 19px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
-.reviews-swiper {
-  height: 218px;
+.why-us-swiper {
   margin-bottom: 25px;
 }
 
-.reviews-slide {
+.why-us-slide {
   display: block;
   border: 1px solid #d4af37;
   border-radius: 16px;
   padding: 32px;
   transition: box-shadow 0.25s ease-in-out;
 }
-.swiper-slide .reviews-slide .reviews-text {
+.swiper-slide .why-us-slide .why-us-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +44,7 @@
   display: flex;
   gap: 5px;
 }
-.reviews-btn {
+.why-us-btn {
   background-color: transparent;
   cursor: pointer;
   background: #d4af37;
@@ -57,49 +56,26 @@
   transition: background 0.25s ease-in-out;
   transition: fill 0.25s ease-in-out;
 }
-.reviews-btn.disabled {
+.why-us-btn.disabled {
   opacity: 0.2;
   fill: black;
   cursor: not-allowed;
   pointer-events: none;
 }
-.reviews-btn :active {
+.why-us-btn :active {
   background: #5a2502;
   fill: white;
 }
-.swiper-text-reviews {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  margin-bottom: 24px;
-}
-.swiper-name-reviews {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-}
-.swiper-image-reviews {
-  height: 48px;
-  border-radius: 100%;
-  object-fit: cover;
-}
-.swiper-reader-reviews {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-}
-.swiper-user-reviews {
-  display: flex;
-  gap: 16px;
-}
-
-@media screen and (min-width: 768px) {
-  .reviews-text {
+@media (min-width: 768px) {
+  .why-us-section {
+    padding: 72px 0;
+  }
+  .why-us-text {
     text-align: center;
   }
 }
-@media screen and (min-width: 1200px) {
-  .seva {
-    margin-bottom: 51px;
+@media (min-width: 1200px) {
+  .why-us-text {
+    font-size: 20px;
   }
 }

@@ -7,6 +7,15 @@
   padding: 36px 0;
   max-width: 320px;
 }
+.questions-text {
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
 .questions-list {
   display: none;
 }
@@ -140,5 +149,8 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+  }
+  .questions-text {
+    text-align: center;
   }
 }

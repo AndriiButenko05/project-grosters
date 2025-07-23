@@ -1,0 +1,12 @@
+@import url('../css/reset.css');
+@import url('../css/base.css');
+@import url('../css/container.css');
+
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('./hero.css');
+@import url('./toget.css');
+@import url('./faq.css');
+@import url('./pluses.css');
+@import url('./kids.css');
+@import url('./legal.css');

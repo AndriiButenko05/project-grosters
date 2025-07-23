@@ -1,4 +1,10 @@
 import translations from "./js/translate.js";
+import Swiper from 'swiper';
+import { Navigation, Pagination, Keyboard } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 // HEADER
 const burgerBtn = document.querySelector(".burger-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
@@ -118,4 +124,32 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 window.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem('language') || 'ua';
   setLanguage(savedLang);
+});
+const swiperFeedback = new Swiper('.swiper', {
+  modules: [Navigation, Pagination, Keyboard],
+  slidesPerView: 1,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: '.button-next',
+    prevEl: '.button-prev',
+    disabledClass: 'disabled',
+  },
+  pagination: {
+    el: '.pagination-for-swiper',
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 24,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+  },
 });
