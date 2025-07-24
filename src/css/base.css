@@ -61,3 +61,10 @@ li:hover {
 .fa-solid {
   margin-right: 5px;
 }
+[data-i18n] {
+  transition: opacity 0.3s ease;
+}
+
+[data-i18n].fading-out {
+  opacity: 0;
+}

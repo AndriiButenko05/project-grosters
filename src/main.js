@@ -1,4 +1,3 @@
-import translations from "./js/translate.js";
 import Swiper from 'swiper';
 import { Navigation, Pagination, Keyboard } from 'swiper/modules';
 import 'swiper/css';

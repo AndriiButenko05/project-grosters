@@ -55,6 +55,9 @@
   background-color: #fbfbfb;
   color: #d4af37;
 }
+.btns {
+  display: none;
+}
 .header-address {
   display: none;
 }
@@ -105,7 +108,15 @@
   top: 24px;
   right: 24px;
 }
-
+.btns-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.btns-mobile .lang-btn {
+  width: 150px;
+}
 .mobile-menu-navigation {
   margin-bottom: auto;
 }
@@ -186,6 +197,10 @@
   }
   .burger-btn {
     display: none;
+  }
+  .btns {
+    display: flex;
+    gap: 8px;
   }
   .lang-switcher {
     margin-right: 20px;
