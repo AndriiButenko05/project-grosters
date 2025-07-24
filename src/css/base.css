@@ -58,3 +58,6 @@ li {
 li:hover {
   transform: translateY(-5px);
 }
+.fa-solid {
+  margin-right: 5px;
+}

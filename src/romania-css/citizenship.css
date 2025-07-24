@@ -16,29 +16,29 @@
   text-align: center;
   margin-bottom: 32px;
 }
-.advantages-citizenship {
+.citizenship-citizenship {
   margin: 0 auto;
   border-radius: 24px;
   padding: 20px 20px;
   margin-bottom: 20px;
 }
-.advantages-item {
+.citizenship-item {
   opacity: 1;
   transform: translateY(0px);
   transition: opacity 1s, transform 1s;
 }
-.advantages-item:not(:last-child) {
+.citizenship-item:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.advantages-header {
+.citizenship-header {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.05em;
 }
 
-.advantages-header::after {
+.citizenship-header::after {
   content: '';
   display: block;
   margin: 18px 0;
@@ -48,14 +48,14 @@
   background: fbfbfb;
 }
 
-.advantages-text {
+.citizenship-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: -0.02em;
 }
 
-.advantages-text-one {
+.citizenship-text-one {
   max-width: 240px;
 }
 .citizenship-img {
@@ -69,12 +69,12 @@
     text-align: center;
   }
 
-  .advantages-citizenship {
+  .citizenship-citizenship {
     padding: 45px 32px;
     margin-bottom: 0;
   }
 
-  .advantages-list {
+  .citizenship-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 44px;
@@ -82,23 +82,23 @@
     margin-bottom: 50px;
   }
 
-  .advantages-item {
+  .citizenship-item {
     width: calc((100% - 32px) / 2);
   }
 
-  .advantages-item:not(:last-child) {
+  .citizenship-item:not(:last-child) {
     margin-bottom: 0px;
   }
 
-  .advantages-header {
+  .citizenship-header {
     font-size: 32px;
   }
 
-  .advantages-header::after {
+  .citizenship-header::after {
     max-width: 304px;
   }
 
-  .advantages-text {
+  .citizenship-text {
     font-size: 18px;
     line-height: 1.15;
     letter-spacing: -0.02em;
@@ -110,7 +110,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .advantages-citizenship {
+  .citizenship-citizenship {
     display: flex;
     gap: 32px;
   }
@@ -118,23 +118,23 @@
     font-size: 20px;
     text-align: center;
   }
-  .advantages-list {
+  .citizenship-list {
     margin-bottom: 0px;
     padding-top: 50px;
     row-gap: 100px;
   }
-  .advantages-item {
+  .citizenship-item {
     width: calc((100% - 44px) / 2);
   }
-  .advantages-item:last-child {
+  .citizenship-item:last-child {
     width: calc((100% - 44px) / 2);
     margin: 0px auto;
   }
 
-  .advantages-header::after {
+  .citizenship-header::after {
     max-width: 280px;
   }
-  .advantages-img {
+  .citizenship-img {
     max-width: 432px;
     height: auto;
   }

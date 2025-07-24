@@ -1,7 +1,19 @@
-.root-romania-section {
-  padding: 36px 0;
+.pluses-section {
+  max-width: 320px;
+  background: #2e2f42;
+  padding: 36px 0px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/lion.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
-.root-romania-heading {
+.pluses-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -9,7 +21,7 @@
   text-align: center;
   margin-bottom: 36px;
 }
-.root-romania-text {
+.pluses-text {
   color: #fbfbfb;
   font-weight: 500;
   font-size: 19px;
@@ -17,14 +29,14 @@
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.root-romania-list {
+.pluses-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 18px;
   margin-bottom: 36px;
 }
-.root-romania-list-item {
+.pluses-list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +45,7 @@
   width: 264px;
   box-shadow: 0 1px 1px 0 #d4af37, 0 1px 1px 0 #d4af37, 0 1px 6px 0 #d4af37;
 }
-.root-romania-heading-list {
+.pluses-heading-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -44,32 +56,36 @@
 }
 
 @media (min-width: 768px) {
-  .root-romania-section {
+  .pluses-section {
+    max-width: 768px;
     padding: 72px 0;
   }
-  .root-romania-heading {
+  .pluses-heading {
     font-size: 38px;
   }
-  .root-romania-text {
+  .pluses-text {
     text-align: center;
     margin-bottom: 32px;
   }
-  .root-romania-list {
+  .pluses-list {
     flex-wrap: nowrap;
   }
-  .root-romania-list-item {
+  .pluses-list-item {
     justify-content: center;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .root-romania-list-item:hover {
+  .pluses-list-item:hover {
     transform: translateY(-5px);
   }
-  .root-romania-heading-list {
+  .pluses-heading-list {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 1200px) {
-  .root-romania-list {
+  .pluses-section {
+    max-width: 1200px;
+  }
+  .pluses-list {
     gap: 36px;
   }
 }

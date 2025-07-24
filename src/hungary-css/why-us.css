@@ -1,5 +1,16 @@
 .why-us-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/desk-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
   padding: 36px 0;
+  max-width: 320px;
+  margin-bottom: 10px;
 }
 .why-us-heading {
   font-weight: 700;
@@ -64,6 +75,7 @@
 }
 @media (min-width: 768px) {
   .why-us-section {
+    max-width: 768px;
     padding: 72px 0;
   }
   .why-us-text {
@@ -71,6 +83,10 @@
   }
 }
 @media (min-width: 1200px) {
+  .why-us-section {
+    max-width: 1200px;
+    padding: 72px 0;
+  }
   .why-us-text {
     font-size: 20px;
   }

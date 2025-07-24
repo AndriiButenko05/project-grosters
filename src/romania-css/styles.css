@@ -1,9 +1,9 @@
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
+@import url('../css/reset.css');
+@import url('../css/base.css');
+@import url('../css/container.css');
 
-@import url('./header.css');
-@import url('./footer.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
 @import url('./hero.css');
 @import url('./citizenship.css');
 @import url('./root-romania.css');

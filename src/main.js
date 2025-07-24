@@ -5,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// HEADER
 const burgerBtn = document.querySelector(".burger-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 const closeBtn = document.querySelector(".mobile-menu-icon-close");
@@ -26,20 +25,6 @@ navList.addEventListener("click", (event) => {
   return;
 })
 
-// PLUSES
-document.addEventListener('DOMContentLoaded', function () {
-    new Splide('#bulgaria-slider', {
-      type: 'loop',
-      autoplay: true,
-      interval: 50000,
-      pauseOnHover: true,
-      pagination: true,
-      arrows: true,
-      speed: 800,
-    }).mount()
-  });
-
-  // QUESTIONS
   const buttons = document.querySelectorAll('.accordion-button');
   buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -51,12 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // ROOT
   document.addEventListener("DOMContentLoaded", function () {
     const items = document.querySelectorAll(".advantages-item");
     const section = document.querySelector(".root-section");
-  
-    // ANIMATION
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -87,8 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-  
-// BUTTON
+
 let mybutton = document.getElementById("myBtn");
 function topFunction() {
   document.body.scrollTop = 0; 
@@ -96,35 +78,6 @@ function topFunction() {
 }
 mybutton.addEventListener("click", topFunction)
 
-// TRANSLATE
-function setLanguage(lang) {
-  const elements = document.querySelectorAll('[data-i18n]'); 
-  elements.forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    const newText = translations[lang][key];
-    if (newText && el.innerHTML !== newText) {
-      el.style.transition = 'opacity 0.3s ease';
-      el.style.opacity = 0;
-      setTimeout(() => {
-        el.innerHTML = newText;
-        el.style.opacity = 1;
-      }, 300);
-    }
-  });
-}
-
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
-    setLanguage(lang);
-    localStorage.setItem('language', lang);
-  });
-});
-
-window.addEventListener('DOMContentLoaded', () => {
-  const savedLang = localStorage.getItem('language') || 'ua';
-  setLanguage(savedLang);
-});
 const swiperFeedback = new Swiper('.swiper', {
   modules: [Navigation, Pagination, Keyboard],
   slidesPerView: 1,

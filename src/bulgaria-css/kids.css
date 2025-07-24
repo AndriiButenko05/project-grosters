@@ -1,7 +1,19 @@
-.why-us-section {
-  padding: 36px 0;
+.kids-section {
+  max-width: 320px;
+  background: #2e2f42;
+  padding: 36px 0px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/family.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
-.why-us-heading {
+.kids-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -10,7 +22,7 @@
   color: #d4af37;
   margin-bottom: 36px;
 }
-.why-us-text {
+.kids-text {
   color: #fbfbfb;
   font-weight: 500;
   font-size: 19px;
@@ -19,18 +31,18 @@
   margin-bottom: 16px;
 }
 
-.why-us-swiper {
+.kids-swiper {
   margin-bottom: 25px;
 }
 
-.why-us-slide {
+.kids-slide {
   display: block;
   border: 1px solid #d4af37;
   border-radius: 16px;
   padding: 32px;
   transition: box-shadow 0.25s ease-in-out;
 }
-.swiper-slide .why-us-slide .why-us-text {
+.swiper-slide .kids-slide .kids-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +56,7 @@
   display: flex;
   gap: 5px;
 }
-.why-us-btn {
+.kids-btn {
   background-color: transparent;
   cursor: pointer;
   background: #d4af37;
@@ -56,26 +68,30 @@
   transition: background 0.25s ease-in-out;
   transition: fill 0.25s ease-in-out;
 }
-.why-us-btn.disabled {
+.kids-btn.disabled {
   opacity: 0.2;
   fill: black;
   cursor: not-allowed;
   pointer-events: none;
 }
-.why-us-btn :active {
+.kids-btn :active {
   background: #5a2502;
   fill: white;
 }
 @media (min-width: 768px) {
-  .why-us-section {
+  .kids-section {
+    max-width: 768px;
     padding: 72px 0;
   }
-  .why-us-text {
+  .kids-text {
     text-align: center;
   }
 }
 @media (min-width: 1200px) {
-  .why-us-text {
+  .kids-section {
+    max-width: 1200px;
+  }
+  .kids-text {
     font-size: 20px;
   }
 }

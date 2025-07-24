@@ -5,10 +5,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination'; 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const items = document.querySelectorAll(".advantages-item");
-    const section = document.querySelector(".proccess-section");
+    const items = document.querySelectorAll(".toget-item");
+    const section = document.querySelector(".toget-section");
   
-    // ANIMATION
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -83,3 +82,4 @@ const swiperFeedback = new Swiper('.swiper', {
     },
   },
 });
+mybutton.addEventListener("click", topFunction)

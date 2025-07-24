@@ -1,4 +1,14 @@
 .passport-romania-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/writing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 320px;
   padding: 36px 0;
 }
 .passport-romania-heading {
@@ -29,13 +39,15 @@
   border: 1px solid #d4af37;
   border-radius: 16px;
   padding: 32px;
-  transition: box-shadow 0.25s ease-in-out;
 }
 .passport-romania-list-item .passport-romania-text {
   text-align: center;
 }
 
 @media (min-width: 768px) {
+  .passport-romania-section {
+    max-width: 768px;
+  }
   .passport-romania-list {
     gap: 12px;
     margin-bottom: 25px;
@@ -48,6 +60,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .passport-romania-section {
+    max-width: 1200px;
+  }
   .passport-romania-text {
     font-size: 20px;
   }

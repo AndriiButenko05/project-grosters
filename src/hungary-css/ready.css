@@ -1,4 +1,14 @@
 .ready-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/writing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 320px;
   padding: 36px 0;
 }
 .ready-heading {
@@ -36,6 +46,9 @@
 }
 
 @media (min-width: 768px) {
+  .ready-section {
+    max-width: 768px;
+  }
   .ready-list {
     flex-direction: row;
     gap: 12px;
@@ -49,6 +62,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .ready-section {
+    max-width: 1200px;
+  }
   .ready-text {
     font-size: 20px;
   }

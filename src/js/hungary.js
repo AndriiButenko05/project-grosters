@@ -28,7 +28,6 @@ navList.addEventListener("click", (event) => {
     const items = document.querySelectorAll(".advantages-item");
     const section = document.querySelector(".proccess-section");
   
-    // ANIMATION
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

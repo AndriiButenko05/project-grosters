@@ -1,5 +1,16 @@
 .passport-section {
+  max-width: 320px;
   padding: 36px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/passport-black.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .passport-heading {
   font-weight: 700;
@@ -48,6 +59,7 @@
 
 @media (min-width: 768px) {
   .passport-section {
+    max-width: 768px;
     padding: 72px 0;
   }
   .passport-text {
@@ -65,6 +77,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .passport-section {
+    max-width: 1200px;
+  }
   .passport-list {
     gap: 36px;
   }

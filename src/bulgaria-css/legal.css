@@ -1,7 +1,19 @@
-.passport-section {
-  padding: 36px 0;
+.legal-section {
+  max-width: 320px;
+  background: #2e2f42;
+  padding: 36px 0px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/desk-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
-.passport-heading {
+.legal-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -10,7 +22,7 @@
 
   margin-bottom: 36px;
 }
-.passport-text {
+.legal-text {
   color: #fbfbfb;
   font-weight: 500;
   font-size: 19px;
@@ -18,14 +30,14 @@
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.passport-list {
+.legal-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 18px;
   margin-bottom: 36px;
 }
-.passport-list-item {
+.legal-list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +48,7 @@
   border: 1px solid #fbfbfb;
   background-color: #fbfbfb;
 }
-.passport-heading-list {
+.legal-heading-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -47,32 +59,36 @@
 }
 
 @media (min-width: 768px) {
-  .passport-section {
+  .legal-section {
+    max-width: 768px;
     padding: 72px 0;
   }
-  .passport-text {
+  .legal-text {
     text-align: center;
     margin-bottom: 32px;
   }
-  .passport-list {
+  .legal-list {
     flex-wrap: nowrap;
   }
-  .passport-list-item {
+  .legal-list-item {
     justify-content: center;
   }
 
-  .passport-heading-list {
+  .legal-heading-list {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 1200px) {
-  .passport-list-item {
+  .legal-section {
+    max-width: 1200px;
+  }
+  .legal-list-item {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .passport-list-item:hover {
+  .legal-list-item:hover {
     transform: translateY(-5px);
   }
-  .passport-list {
+  .legal-list {
     gap: 36px;
   }
 }

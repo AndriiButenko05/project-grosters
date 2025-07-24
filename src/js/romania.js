@@ -4,7 +4,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
 const burgerBtn = document.querySelector(".burger-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 const closeBtn = document.querySelector(".mobile-menu-icon-close");
@@ -26,10 +25,9 @@ navList.addEventListener("click", (event) => {
 })
 
   document.addEventListener("DOMContentLoaded", function () {
-    const items = document.querySelectorAll(".advantages-item");
+    const items = document.querySelectorAll(".citizenship-item");
     const section = document.querySelector(".citizenship-section");
   
-    // ANIMATION
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

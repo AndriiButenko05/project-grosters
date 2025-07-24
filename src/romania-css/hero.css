@@ -6,11 +6,12 @@
       rgba(46, 47, 66, 0.5),
       rgba(46, 47, 66, 0.5)
     ),
-    url(/img/bg/background.jpg);
+    url(/img/bg/passport.png);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 h1 {

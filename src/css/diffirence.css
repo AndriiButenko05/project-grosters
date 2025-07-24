@@ -1,5 +1,16 @@
 .diffirence-section {
+  max-width: 320px;
   padding: 36px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/office-dark.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .diffirence-heading {
   font-weight: 700;
@@ -69,6 +80,7 @@
 }
 @media (min-width: 768px) {
   .diffirence-section {
+    max-width: 768px;
     padding: 72px 0;
   }
   .diffirence-text {
@@ -79,6 +91,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .diffirence-section {
+    max-width: 1200px;
+  }
   .diffirence-list {
     gap: 36px;
   }

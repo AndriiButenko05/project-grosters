@@ -1,5 +1,17 @@
 .root-romania-section {
-  padding: 36px 0;
+  max-width: 320px;
+  background: #2e2f42;
+  padding: 36px 0px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(/img/bg/office-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .root-romania-heading {
   font-weight: 700;
@@ -45,6 +57,7 @@
 
 @media (min-width: 768px) {
   .root-romania-section {
+    max-width: 768px;
     padding: 72px 0;
   }
   .root-romania-heading {
@@ -69,6 +82,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .root-romania-section {
+    max-width: 1200px;
+  }
   .root-romania-list {
     gap: 36px;
   }
