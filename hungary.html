@@ -14,10 +14,10 @@
     />
     <title>Grosters Company</title>
     <script type="module" crossorigin src="/project-grosters/hungary.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-grosters/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/project-grosters/assets/languages-Bfz4wbly.js">
     <link rel="modulepreload" crossorigin href="/project-grosters/assets/vendor-B_Nbaisy.js">
     <link rel="stylesheet" crossorigin href="/project-grosters/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/project-grosters/assets/hungary-BYCP2q_V.css">
+    <link rel="stylesheet" crossorigin href="/project-grosters/assets/hungary-DD9a84fO.css">
   </head>
   <body>
     <header class="header">
@@ -28,14 +28,19 @@
       /></a>
       <div class="lang-switcher">
         <button class="lang-btn">
-          <a href="bulgaria.html">Болгарія</a>
+          <a href="bulgaria.html" data-i18n="bulgaria">Болгарія</a>
         </button>
         <button class="lang-btn">
-          <a href="romania.html">Румунія</a>
+          <a href="romania.html" data-i18n="romania">Румунія</a>
         </button>
         <button class="lang-btn">
-          <a href="hungary.html">Угорщина</a>
+          <a href="hungary.html" data-i18n="hungary">Угорщина</a>
         </button>
+      </div>
+      <div class="lang-switcher btns">
+        <button class="lang-btn" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">ENG</button>
       </div>
     </nav>
     <address class="header-address">
@@ -76,22 +81,36 @@
       <nav class="mobile-menu-navigation">
         <ul class="mobile-menu-navigation-list">
           <li class="mobile-menu-navigation-list-item">
-            <a href="bulgaria.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="bulgaria.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="bulgaria"
               >Болгарія</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
-            <a href="romania.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="romania.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="romania"
               >Румунія</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
-            <a href="hungary.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="hungary.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="hungary"
               >Угорщина</a
             >
           </li>
         </ul>
       </nav>
+      <div class="lang-switcher btns-mobile">
+        <button class="lang-btn" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">ENG</button>
+      </div>
       <address class="mobile-menu-address">
         <ul class="mobile-menu-address-list">
           <li class="mobile-menu-address-item">
@@ -430,10 +449,10 @@
       >
     </button>
     <button type="button" class="footer-btn">
-      <a href="index.html">Головна сторінка</a>
+      <a href="index.html" data-i18n="mainPage">Головна сторінка</a>
     </button>
     <div class="footer-text">
-      <p class="footer-slogan">
+      <p class="footer-slogan" data-i18n="footSlogan">
         Хочеш паспорт ЄС без зайвих клопотів? Допомагаємо отримати громадянство
         ЄС:<br />
         Без переїзду<br />

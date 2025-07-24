@@ -14,10 +14,10 @@
     />
     <title>Grosters Company</title>
     <script type="module" crossorigin src="/project-grosters/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-grosters/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/project-grosters/assets/languages-Bfz4wbly.js">
     <link rel="modulepreload" crossorigin href="/project-grosters/assets/vendor-B_Nbaisy.js">
     <link rel="stylesheet" crossorigin href="/project-grosters/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-CFsdC6mt.css">
+    <link rel="stylesheet" crossorigin href="/project-grosters/assets/index-Cubyy5Tb.css">
   </head>
   <body>
     <header class="header">
@@ -28,14 +28,19 @@
       /></a>
       <div class="lang-switcher">
         <button class="lang-btn">
-          <a href="bulgaria.html">Болгарія</a>
+          <a href="bulgaria.html" data-i18n="bulgaria">Болгарія</a>
         </button>
         <button class="lang-btn">
-          <a href="romania.html">Румунія</a>
+          <a href="romania.html" data-i18n="romania">Румунія</a>
         </button>
         <button class="lang-btn">
-          <a href="hungary.html">Угорщина</a>
+          <a href="hungary.html" data-i18n="hungary">Угорщина</a>
         </button>
+      </div>
+      <div class="lang-switcher btns">
+        <button class="lang-btn" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">ENG</button>
       </div>
     </nav>
     <address class="header-address">
@@ -76,22 +81,36 @@
       <nav class="mobile-menu-navigation">
         <ul class="mobile-menu-navigation-list">
           <li class="mobile-menu-navigation-list-item">
-            <a href="bulgaria.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="bulgaria.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="bulgaria"
               >Болгарія</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
-            <a href="romania.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="romania.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="romania"
               >Румунія</a
             >
           </li>
           <li class="mobile-menu-navigation-list-item">
-            <a href="hungary.html" class="mobile-menu-navigation-list-link"
+            <a
+              href="hungary.html"
+              class="mobile-menu-navigation-list-link"
+              data-i18n="hungary"
               >Угорщина</a
             >
           </li>
         </ul>
       </nav>
+      <div class="lang-switcher btns-mobile">
+        <button class="lang-btn" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">ENG</button>
+      </div>
       <address class="mobile-menu-address">
         <ul class="mobile-menu-address-list">
           <li class="mobile-menu-address-item">
@@ -142,7 +161,7 @@
       Grosters Громадянство ЄС
     </p>
     <h1 data-i18n="h1">Від мрії до паспорта</h1>
-    <p class="hero-text">
+    <p class="hero-text" data-i18n="heroText">
       Юридична компанія, яка допомагає легально отримати громадянство ЄС — від
       консультації до паспорта🛂 <br /><br />🔹 Працюємо офіційно <br />🔹
       Індивідуальний підхід <br />🔹 500+ клієнтів уже з паспортом<br /><br />
@@ -156,6 +175,16 @@
         >Instagram</a
       >
     </button>
+  </div>
+  <div class="language-modal" id="languageModal">
+    <div class="language-modal-content">
+      <h2 class="hero-text">Оберіть Мову</h2>
+      <div class="language-options">
+        <button data-lang="ua" class="lang-btn">Українська</button>
+        <button data-lang="ru" class="lang-btn">Русский</button>
+        <button data-lang="en" class="lang-btn">English</button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -178,7 +207,7 @@
         </p>
       </li>
       <li class="education-list-item status">
-        <p class="education-text-list">
+        <p class="education-text-list" data-i18n="eduListSixth">
           Співпрацюємо з провідними університетами України та ЄС
         </p>
       </li>
@@ -236,7 +265,9 @@
         </li>
         <li class="advantages-item">
           <h3 class="advantages-header">02</h3>
-          <p class="advantages-text">Знайти документи у архівах</p>
+          <p class="advantages-text" data-i18n="rootItem2">
+            Знайти документи у архівах
+          </p>
         </li>
         <li class="advantages-item">
           <h3 class="advantages-header">03</h3>
@@ -370,8 +401,10 @@
 
       <section class="reviews-sect" id="section-reviews">
   <div class="container fade-in">
-    <h2 class="reviews">Відгуки наших клієнтів — найкраща рекомендація</h2>
-    <p class="reviews-text">
+    <h2 class="reviews" data-i18n="reviewHead">
+      Відгуки наших клієнтів — найкраща рекомендація
+    </h2>
+    <p class="reviews-text" data-i18n="reviewstext">
       Ми — юридична фірма, а не просто "фірма з оформлення". <br />
       📌 Наші юристи акредитовані <br />📌 Документи подаються офіційно, через
       державні установи <br />📌 Всі договори — юридично захищені <br />🛑 Ми не
@@ -380,11 +413,9 @@
       спокійне майбутнє
     </p>
     <div class="swiper reviews-swiper">
-      <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-        <!-- Slides -->
         <div class="swiper-slide reviews-slide reviews-text">
-          <p class="swiper-text-reviews">
+          <p class="swiper-text-reviews" data-i18n="reviewListTextFirst">
             Працюють з повагою до клієнта. Допомогли не лише мені, а й моїм
             батькам.
           </p>
@@ -397,12 +428,14 @@
               class="swiper-image-reviews"
             />
             <div class="swiper-name-container-reviews">
-              <p class="swiper-name-reviews">Андрій С., Одеса</p>
+              <p class="swiper-name-reviews" data-i18n="reviewListHeadFirst">
+                Андрій С., Одеса
+              </p>
             </div>
           </div>
         </div>
         <div class="swiper-slide reviews-slide reviews-text">
-          <p class="swiper-text-reviews">
+          <p class="swiper-text-reviews" data-i18n="reviewListTextSecond">
             Професійний підхід. Отримав не лише документи, а й повну
             консультацію
           </p>
@@ -415,12 +448,14 @@
               class="swiper-image-reviews"
             />
             <div class="swiper-name-container-reviews">
-              <p class="swiper-name-reviews">Олег В., Львів</p>
+              <p class="swiper-name-reviews" data-i18n="reviewListHeadSecond">
+                Олег В., Львів
+              </p>
             </div>
           </div>
         </div>
         <div class="swiper-slide reviews-slide reviews-text">
-          <p class="swiper-text-reviews seva">
+          <p class="swiper-text-reviews seva" data-i18n="reviewListTextThird">
             Дякую команді за повний супровід! Усе прозоро, швидко й офіційно.
           </p>
           <div class="swiper-user-reviews">
@@ -432,12 +467,14 @@
               class="swiper-image-reviews"
             />
             <div class="swiper-name-container-reviews">
-              <p class="swiper-name-reviews">Всеволод М., Київ</p>
+              <p class="swiper-name-reviews" data-i18n="reviewListHeadThird">
+                Всеволод М., Київ
+              </p>
             </div>
           </div>
         </div>
         <div class="swiper-slide reviews-slide reviews-text">
-          <p class="swiper-text-reviews">
+          <p class="swiper-text-reviews" data-i18n="reviewListTextFourth">
             Отримала громадянство за 11 місяців. Усе чітко по етапах, як і
             обіцяли.
           </p>
@@ -450,7 +487,9 @@
               class="swiper-image-reviews"
             />
             <div class="swiper-name-container-reviews">
-              <p class="swiper-name-reviews">Марія Л., Харків</p>
+              <p class="swiper-name-reviews" data-i18n="reviewListHeadFourth">
+                Марія Л., Харків
+              </p>
             </div>
           </div>
         </div>
@@ -522,10 +561,10 @@
       >
     </button>
     <button type="button" class="footer-btn">
-      <a href="index.html">Головна сторінка</a>
+      <a href="index.html" data-i18n="mainPage">Головна сторінка</a>
     </button>
     <div class="footer-text">
-      <p class="footer-slogan">
+      <p class="footer-slogan" data-i18n="footSlogan">
         Хочеш паспорт ЄС без зайвих клопотів? Допомагаємо отримати громадянство
         ЄС:<br />
         Без переїзду<br />
