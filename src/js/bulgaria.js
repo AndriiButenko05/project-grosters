@@ -4,6 +4,26 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+const burgerBtn = document.querySelector('.burger-btn');
+const mobileMenu = document.querySelector('.mobile-menu');
+const closeBtn = document.querySelector('.mobile-menu-icon-close');
+const navList = document.querySelector('.mobile-menu-navigation-list');
+burgerBtn.addEventListener('click', () => {
+  document.body.classList.add('no-scroll');
+  mobileMenu.classList.add('is-open');
+});
+closeBtn.addEventListener('click', () => {
+  document.body.classList.remove('no-scroll');
+  mobileMenu.classList.remove('is-open');
+});
+navList.addEventListener('click', event => {
+  if (event.target.classList.contains('mobile-menu-navigation-list-link')) {
+    document.body.classList.remove('no-scroll');
+    mobileMenu.classList.remove('is-open');
+  }
+  return;
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   const items = document.querySelectorAll('.toget-item');
   const section = document.querySelector('.toget-section');
