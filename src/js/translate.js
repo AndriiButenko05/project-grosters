@@ -52,6 +52,8 @@ const translations = {
     diffListTextSecond: `Документи подаються офіційно, через державні установи`,
     diffListHeadThird: `Юридичний захист`,
     diffListTextThird: `Всі договори юридично захищені, повна прозорість процесу`,
+    diffListHeadFourth: `Професійна команда фахівців`,
+    diffListTextFourth:`Юристи кращі адвокати країни (з 2003 року)-кандидати та доктори юридичних наук`,
     diffStatus: `Поточний статус законопроєкту №11469 <span><i class="fa-solid fa-scale-balanced" style="color: #d4af37"></i></span>`,
     diffStatusText: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Зареєстрований у <strong>Верховній Раді України</strong>`,
     diffStatusTextSecond: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Пройшов <strong>перше читання </strong>`,
@@ -99,6 +101,7 @@ const translations = {
     kidsSlideUniversity: 'Вступ до університетів ЄС',
     kidsSlideTravel: 'Подорожі Безвіз',
     kidsSlideSocial: 'Соціальні гарантії',
+    kidsSlideEducation:`<i class="fa-solid fa-school" style="color: #d4af37"></i>Дитячі виховні, дошкільні державні установи, європейська державна освіта(школи, ВНЗ)`,
     kidsFinalNote:
       'Діти можуть мати доступ до тих самих переваг, що і діти в Німеччині чи Франції. Ви створюєте майбутнє для своєї родини — вже зараз',
     legalTitle: 'Легальність — головна цінність',
@@ -121,7 +124,7 @@ const translations = {
     plusesNoLanguage: 'Без мовних тестів',
     plusesConclusion:
       'Ви отримуєте паспорт ЄС, не змінюючи кардинально свій стиль життя Для багатьох наших клієнтів — це найкраща альтернатива міграції',
-    togetHead: 'Як отримати болгарське громадянство за 8–12 місяців',
+    togetHead: 'Як отримати болгарське громадянство від 6 місяців до 1,5 року (залежно від відповідних документів та чинного громадянства)',
     togetHeadText1:
       'Це — не міф, а реальність! Ви можете стати громадянином ЄС усього за рік Найшвидший і легальний шлях — походження (коріння) Якщо у вас у роду були болгари — ми допоможемо:',
     togetItem1: 'Встановити родинний зв’язок',
@@ -149,30 +152,26 @@ const translations = {
     citizenshipNote:
       'Громадянство — на 1 рік, далі автоматичне оновлення. Працюємо офіційно, з повним юридичним супроводом.',
     heroTitle: 'Румунський паспорт — ваш легальний шлях до Європи',
-    heroDescription: `Румунське громадянство — це не просто паспорт. Це ваш 🔑 до: <br /><br /><i
-        class="fa-solid fa-check hero-tick"
-        style="color: #d4af37"
-      ></i>
-      Життя в будь-якій країні ЄС<br /><i
-        class="fa-solid fa-check hero-tick"
-        style="color: #d4af37"
-      ></i>
-      Роботи без дозволів<br /><i
-        class="fa-solid fa-check hero-tick"
-        style="color: #d4af37"
-      ></i>
-      Навчання в топових університетах<br /><i
-        class="fa-solid fa-check hero-tick"
-        style="color: #d4af37"
-      ></i>
-      Безвізу в 170+ країн<br />
+    heroDescription: `Румунське громадянство — це не просто паспорт. Це ваш 🔑 до:
+      <br /><br />
+      <i class="fa-solid fa-check hero-tick" style="color: #d4af37"></i>
+      Життя в будь-якій країні ЄС <br />
+      <i class="fa-solid fa-check hero-tick" style="color: #d4af37"></i>
+      Роботи без дозволів <br />
+      <i class="fa-solid fa-check hero-tick" style="color: #d4af37"></i>
+      Навчання в топових університетах <br />
+      <i class="fa-solid fa-check hero-tick" style="color: #d4af37"></i>
+      Безвізу в 170+ країн <br /><br />
+      <i class="fa-solid fa-triangle-exclamation" style="color: #d4af37"></i>
+      Важливо: громадянство оформлюється на 1 рік і потім продовжується щороку
+      без вашої присутності. Є два варіанти громадянства: тимчасове — на 1 рік з автоматичним
+      продовженням без вашої присутності, або постійне — як болгарське, за ~1,5
+      роки. <br /><br />
+      <i class="fa-solid fa-file-invoice" style="color: #d4af37"></i>
+      Усі документи готуємо ми. Ви — просто тримаєте зв'язок з менеджером.
       <br />
-      <i class="fa-solid fa-triangle-exclamation" style="color: #d4af37"></i
-      >
-
-      Важливо: громадянство оформлюється на 1 рік і потім продовжується щороку без вашої присутності. <br />
-      <i class="fa-solid fa-file-invoice" style="color: #d4af37"></i>Усі документи готуємо ми. Ви — просто тримаєте зв'язок з менеджером. <br />
-      <i class="fa-solid fa-map-pin" style="color: #d4af37"></i>Це законно. Це реально. І це — майбутнє, якого ви варті.`,
+      <i class="fa-solid fa-map-pin" style="color: #d4af37"></i>
+      Це законно. Це реально. І це — майбутнє, якого ви варті.`,
     passportTitle: 'Для кого румунський паспорт — ідеальне рішення?',
     passportIntro: 'Румунське громадянство — це:',
     passportItem1:
@@ -308,6 +307,8 @@ const translations = {
     diffListTextSecond: `Documents are submitted officially, through government agencies`,
     diffListHeadThird: `Advocacy and legal protection`,
     diffListTextThird: `All contracts are legally protected, full transparency of the process`,
+    diffListHeadFourth: `Professional team of specialists`,
+    diffListTextFourth:`Lawyers are the best lawyers in the country (since 2003) - candidates and doctors of law`,
     diffStatus: `Current status of the draft law No. 11469 <span><i class="fa-solid fa-scale-balanced" style="color: #d4af37"></i></span>`,
     diffStatusText: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Registered in the <strong> Verkhovna Rada of Ukraine</strong>`,
     diffStatusTextSecond: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Passed the <strong>first reading</strong>`,
@@ -355,6 +356,7 @@ const translations = {
     kidsSlideUniversity: 'Admission to EU universities',
     kidsSlideTravel: 'Visa-free travel',
     kidsSlideSocial: 'Social benefits',
+    kidsSlideEducation:`<i class="fa-solid fa-school" style="color: #d4af37"></i>Childcare and preschool institutions, European public education (schools, universities)`,
     kidsFinalNote:
       'Children can access the same benefits as those in Germany or France. You’re building a future for your family — starting now',
     legalTitle: 'Legality is our top priority',
@@ -377,7 +379,7 @@ const translations = {
     plusesNoLanguage: 'No language tests',
     plusesConclusion:
       'You get an EU passport without radically changing your lifestyle. For many of our clients, this is the best alternative to emigration',
-    togetHead: 'How to get Bulgarian citizenship in 8–12 months',
+    togetHead: 'How to get Bulgarian citizenship from 6 months to 1.5 years (depending on the relevant documents and current citizenship)',
     togetHeadText1:
       'This is not a myth, but reality! You can become an EU citizen in just one year. The fastest and legal path is origin. If you have Bulgarian roots — we will help:',
     togetItem1: 'Establish family connection',
@@ -427,7 +429,7 @@ const translations = {
       <i class="fa-solid fa-triangle-exclamation" style="color: #d4af37"></i
       >
 
-      Important: Citizenship is granted for 1 year and then renewed annually without your presence. <br />
+      Important: Citizenship is granted for 1 year and then renewed annually without your presence.There are two options: temporary — for 1 year with automatic yearly renewal without your presence, or permanent — like Bulgarian, takes ~1.5 years. <br />
        <i class="fa-solid fa-file-invoice" style="color: #d4af37"></i>We prepare all the documents. You simply stay in touch with the manager. <br />
       <i class="fa-solid fa-map-pin" style="color: #d4af37"></i>It’s legal. It’s real. And it’s the future you deserve.`,
     passportTitle: 'Who is the Romanian passport perfect for?',
@@ -565,6 +567,8 @@ const translations = {
     diffListTextSecond: `Документы подаются официально, через государственные учреждения`,
     diffListHeadThird: `Юридическая защита`,
     diffListTextThird: `Все договоры юридически защищены, полная прозрачность процесса`,
+    diffListHeadFourth: `Профессиональная команда специалистов`,
+    diffListTextFourth:`Юристы лучшие адвокаты страны (с 2003 года) - кандидаты и доктора юридических наук`,
     diffStatus: `Текущий статус законопроекта №11469<span><i class="fa-solid fa-scale-balanced" style="color: #d4af37"></i></span>`,
     diffStatusText: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Зарегистрирован в <strong> Верховной Раде Украины</strong>`,
     diffStatusTextSecond: `<span class="questions-span"><i class="fa-solid fa-check" style="color: #228b22"></i></span> Прошел <strong>первое чтение</strong>`,
@@ -612,6 +616,7 @@ const translations = {
     kidsSlideUniversity: 'Поступление в вузы ЕС',
     kidsSlideTravel: 'Безвизовые путешествия',
     kidsSlideSocial: 'Социальные гарантии',
+    kidsSlideEducation:`<i class="fa-solid fa-school" style="color: #d4af37"></i>Детские воспитательные, дошкольные государственные учреждения, европейское государственное образование (школы, вузы)`,
     kidsFinalNote:
       'Дети могут получить те же преимущества, что и дети в Германии или Франции. Вы создаёте будущее для своей семьи — уже сейчас',
     legalTitle: 'Законность — наша главная ценность',
@@ -634,7 +639,7 @@ const translations = {
     plusesNoLanguage: 'Без языковых тестов',
     plusesConclusion:
       'Вы получаете паспорт ЕС, не меняя радикально свой образ жизни. Для многих наших клиентов — это лучшая альтернатива эмиграции',
-    togetHead: 'Как получить болгарское гражданство за 8–12 месяцев',
+    togetHead: 'Как получить болгарское гражданство от 6 месяцев до 1,5 года (взависимости от надлежащих документов и действующего гражданства)',
     togetHeadText1:
       'Это не миф, а реальность! Вы можете стать гражданином ЕС всего за год. Самый быстрый и легальный путь — по происхождению. Если среди ваших предков были болгары — мы поможем:',
     togetItem1: 'Установить родственную связь',
@@ -684,7 +689,7 @@ const translations = {
       <i class="fa-solid fa-triangle-exclamation" style="color: #d4af37"></i
       >
 
-      Важно: гражданство оформляется на 1 год и затем ежегодно продлевается без вашего присутствия. <br />
+      Важно: гражданство оформляется на 1 год и затем ежегодно продлевается без вашего присутствия.Есть два варианта гражданства: временное — на 1 год с автоматическим продлением без вашего участия, или постоянное — как болгарское, примерно за 1,5 года. <br />
        <i class="fa-solid fa-file-invoice" style="color: #d4af37"></i>Все документы подготавливаем мы. Вы просто держите связь с менеджером. <br />
       <i class="fa-solid fa-map-pin" style="color: #d4af37"></i>Это законно. Это реально. И это — будущее, которого вы достойны.`,
     passportTitle: 'Кому подходит румынский паспорт?',
