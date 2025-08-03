@@ -3,10 +3,12 @@ import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
+import { writeFileSync } from 'fs';
+import { resolve } from 'path';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/project-grosters/',
+    base: '/', // змінено з /project-grosters/
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
@@ -44,6 +46,12 @@ export default defineConfig(({ command }) => {
       SortCss({
         sort: 'mobile-first',
       }),
+      {
+        name: 'add-cname',
+        closeBundle() {
+          writeFileSync(resolve(__dirname, 'dist/CNAME'), 'grosters.com');
+        },
+      },
     ],
   };
 });

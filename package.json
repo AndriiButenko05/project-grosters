@@ -9,7 +9,6 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "homepage": "https://andriibutenko05.github.io/project-grosters/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
